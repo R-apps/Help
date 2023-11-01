@@ -14,4 +14,8 @@ layout:
 
 # Custom Components
 
-Custom tools like a barcode, webcam, chatbot, social logins, signature pads, and others are available under this category. To create a custom UI component, [click here](../creating-custom-components.md) and follow the procedure.
+Considering a variety of business scenarios, a range of tools like the barcode, webcam, chatbot, social logins, signature pads, and others are available under this "Custom" category.&#x20;
+
+
+
+To create a custom UI component, [click here](../creating-custom-components.md) and follow the procedure.
