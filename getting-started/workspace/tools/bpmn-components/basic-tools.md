@@ -14,7 +14,9 @@ layout:
 
 # Basic Tools
 
-All the flow objects, connecting objects, swimlanes, and data are available here.
+All the flow objects, connecting objects, swimlanes, and data are available here.&#x20;
+
+These flow elements are the components or building blocks that allow you to design and define the logic, behavior, and functionality of an application or process. These elements help you to create workflows, automation, and processes by visually connecting and configuring them.
 
 ### **Flow Objects**
 
@@ -28,8 +30,8 @@ E.g. Tasks, Sub-process, etc.
 
 #### Gateways
 
-Gateways, usually in diamond shapes, control how a business process flows by making decisions based on internal or external conditions. These notations help you separate and recombine flows based on certain conditions.\
-E.g.: Exclusive tool, which can be transformed to as event-based, parallel, inclusive, etc. in its settings.
+Gateways, in diamond shapes, control how a business process flows by making decisions based on internal or external conditions. These notations help you separate and recombine flows based on certain conditions.\
+E.g.: Exclusive tool, which can be transformed into event-based, parallel, inclusive, etc. in its settings.
 
 #### Events
 
