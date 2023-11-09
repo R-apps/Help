@@ -18,7 +18,7 @@ It’s evident that you want your app to be more intuitive and appealing. To hel
 
 Each component has its own set of properties, which are accessible by double-clicking. The property editor has three tabs:
 
-* **General**: Here, you can map the element to a specific attribute, modify its name, add a placeholder, and perform other actions pertaining to the component. [Click here](general-properties.md) to learn more.
+* **General**: Here, you can map your screen component to a specific attribute, modify its name, add a placeholder, and perform other actions pertaining to the component. [Click here](general-properties.md) to learn more.
 * **Design**: These properties allow you to style and position the component as you need. [Click here](design-properties.md) to learn more.
 
-You can customize individual labeled elements, composite elements, and labels within composite components. For instance, you can customize a "Textbox" where the label and the text box can be tailored separately.&#x20;
+You can customize individual labeled elements, composite elements, and labels within the composite components. For instance, you can customize a "Textbox" where the label and the text box can be tailored separately.&#x20;

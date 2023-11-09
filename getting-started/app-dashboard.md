@@ -1,7 +1,5 @@
 # App Dashboard
 
-## App Dashboard
-
 A dashboard is Reasy's home page, where you manage, create, and browse all of your apps. It displays the app statuses using colored tags, with each color denoting a different status.
 
 ![](../.gitbook/assets/Active.png) **Active**; means the app is live and is available to use\

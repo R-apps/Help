@@ -32,7 +32,7 @@ This infographic illustrates the essentials of a 12-column grid layout.
 * **Columns**: These are the 12 available columns.
 
 {% hint style="info" %}
-1. To view the grids on the canvas, click![](<../../../.gitbook/assets/image (5).png>)on the canvas toolbar.
+1. &#x20;To view the grids on the canvas, click![](<../../../.gitbook/assets/image (5).png>)on the canvas toolbar.
 2. Sections are crucial in building your app's interface. So, ensure that your components are exactly placed in order to efficiently manage and position the sections and elements within them.
 {% endhint %}
 
@@ -49,7 +49,7 @@ For instance, if you want to place two components side by side, you can fit each
 So, it all depends on how you require it for your app's interface. However, make sure that the grid columns total up to twelve for a row.
 
 {% hint style="info" %}
-Only the components within a section will be auto-arranged.
+Only the components within a section will be auto arranged.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>

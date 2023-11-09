@@ -22,7 +22,7 @@ Reasy offers a comprehensive range of tools to simplify the app-building process
 
 UI (User Interface) components play a crucial role in building your app's interface and enabling interactivity. In addition to the input elements like text fields, buttons, drop-downs, and others, you also have access to analytical, informational, and custom components. Additionally, there are a few pre-built components available to expedite the design of your app's interface, eliminating the need to create them from scratch.
 
-Building an app’s interface is a breeze; simply drag and drop the UI elements. For a deeper understanding of each component, [click here](ui-components/).
+Building your app’s interface in Reasy is a breeze; simply drag and drop the UI elements. For a deeper understanding of each component, [click here](ui-components/).
 
 * **BPMN Components**
 

@@ -17,7 +17,7 @@ layout:
 
 As you create your app, you will be provided with a default 'Login' layout and a 'Main' layout to give you a head start. If your app includes a login page, you can simply customize and use it, saving you the trouble of designing it from scratch.
 
-Before you start customizing or creating a layout, here are some tips to consider to make your app more appealing and user-friendly:
+Before you start customizing or creating a layout, here are some tips to consider making your app more appealing and user-friendly:
 
 {% hint style="info" %}
 **Tips for better User Experience**:
@@ -37,8 +37,8 @@ To begin customizing a layout,
 ![](<../../../.gitbook/assets/image (27).png>)
 
 * Open it on the canvas, a **Toolbox** will also appear on the right. This contains layout elements that will aid you in building your app's layout quickly and efficiently.
-* Next, head to its **Properties**, placed right on the workspace.
-* Expand the **Design** tab to access customization options for all your visual elements, navigation elements, fonts, typography, and many more. Tailor them to match your product's design and align with your brand.
+  * Next, head to its **Properties**, placed right on the workspace.
+  * Expand the **Design** tab to access customization options for all your visual elements, navigation elements, fonts, typography, and many more. Tailor them to match your product's design and align with your brand.
 
 ![](<../../../.gitbook/assets/image (18).png>)
 
@@ -59,8 +59,6 @@ Save your changes after you customize. Moreover, you can see how it appears on o
 {% hint style="info" %}
 **Hint**: As you have the flexibility of customizing the layout later, you can simply pick a layout and start building screens. However, it's a good idea to make your layout first so you can preview your screens along with it as you build them.
 {% endhint %}
-
-As you have the flexibility of customizing the layout later, you can simply pick a layout and start building screens. However, it's a good idea to make your layout first so you can preview your screens along with it as you build them.
 
 ### Importing a layout
 
