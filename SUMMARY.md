@@ -1,13 +1,11 @@
 # Table of contents
 
-* [Overview](README.md)
+* [About Reasy](README.md)
+* [Why Choose Reasy?](why-choose-reasy.md)
+* [User Registration](user-registration.md)
+* [Invite & Manage Users](invite-and-manage-users.md)
 
 ## INTRODUCTION
-
-* [About Reasy](<README (1).md>)
-* [Why Choose Reasy?](introduction/why-choose-reasy.md)
-* [User Registration](introduction/user-registration.md)
-* [Invite & Manage Users](introduction/invite-and-manage-users.md)
 
 ## GETTING STARTED
 
