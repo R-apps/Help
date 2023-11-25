@@ -125,12 +125,14 @@ Below are the steps to set up an environment,
 
 Its status remains "Request Pending" until accepted. Once the request is accepted, the status changes to "Linked". The linked servers will then appear as environments where you can deploy your apps.
 
-Now that we understand environments, let's look at the app deployment process.&#x20;
+Now that we understand environments, let's look at the app deployment process. Deploying the app is a simple action of pushing the specific branch of the app to the target environment.
 
 * Click![](<../.gitbook/assets/More actions (7).png>) on the app tile and select **Deploy**. The platform displays a list of available environments, also known as linked servers.
-* Next, select the specific environment or environments where you want to deploy your app and click **Send**. This will send a request to all the selected environments.&#x20;
+* Next, select the environments where you want to deploy your app and click **Send**. This will send a request to all the selected environments.
 
-Users in those environments can access the request and install the app. So, with just a few clicks, you can easily deploy your app to the desired environment(s) at once.&#x20;
+Administrators of the target environment have to approve the deployment requests and install the app.&#x20;
+
+So, with just a few clicks, you can easily deploy your app to the desired environment(s) at once.&#x20;
 
 Once your app is installed in the desired environments, it can be deployed to additional environments if required. So, how would you keep track of all the environments in which your app has been deployed? To help you with that, we have an option called "[Deployment tree](app-management.md#deployment-tree)", which visualizes its deployment flow.&#x20;
 
