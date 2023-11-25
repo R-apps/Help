@@ -94,17 +94,17 @@ Moreover, deployment lets you test out new features without messing up your live
 
 Here are a few instances when you might need to deploy your app.
 
-1. When you build an app and want your teams to test and validate its functional integrity and detect errors.&#x20;
-2. When your app requires approval at different stages before going live.
-3. When you add new features to your app and want to test them without affecting the live app, you can push the new features separately. This will ensure everything works smoothly.
+1. &#x20;When you build an app and want your teams to test and validate its functional integrity and detect errors.&#x20;
+2. &#x20;When your app requires approval at different stages before going live.
+3. &#x20;When you add new features to your app and want to test them without affecting the live app, you can push the new features separately. This will ensure everything works smoothly.
 
 To understand the deployment process, let's first understand environments.&#x20;
 
-An **Environment** refers to a specific configuration or setup in which software applications are developed, tested, deployed, and run. It represents a distinct computing infrastructure that includes hardware, software, network resources, and other dependencies necessary to support the software development life cycle (SDLC).
+An **Environment** refers to a specific instance of a Reasy server where apps are developed, tested, deployed, and run. Each environment is a distinct computing infrastructure that includes hardware, software, network resources, and other dependencies to run the apps built on Reasy.
 
 Typically, different environments are created to facilitate different stages of the SDLC. The most common environments include:
 
-* _Development environment_ _(aka local environment):_ This is where developers write, modify, and test code. It's an individual developer's local machine where new features or changes are implemented and debugged before being shared with others.
+* _Development environment_ _(aka local environment):_ This is where developers create and manage the development branches of a particular app. It's an individual developer's local machine where new features or changes are implemented and debugged before being shared with others.
 * _Testing environment:_ This environment is used for comprehensive software testing, including unit testing, integration testing, and system testing. It aims to identify and fix issues or bugs before software is released.
 * _Staging (aka pre-prod) environment:_ This is a replica of the production environment where the software is tested in conditions that closely resemble the live environment. It allows for final testing and validation of the application before deployment.
 * _Production environment:_ This is the live environment where the software is deployed and made available to end-users. It represents the actual system on which the software operates and serves its intended purpose.
@@ -115,9 +115,9 @@ Here’s how you can set up an environment.
 
 #### **Environment Setup**
 
-Only administrators can set up environments.&#x20;
+Reasy platform administrators will have the option to set up environments by linking Reasy instances and identify them with a specific name. All linking requests require authorization from the target environment and once approved the linked servers becomes available for application deployment.
 
-Follow the below steps to set up an environment,
+Below are the steps to set up an environment,
 
 * Go to **Dashboard**>**Platform** and click **Linked Servers**; this displays a list of servers that are already linked.
 * To create a new environment, click **Link Server.** Give it a unique name, server ID, server key, and the machine’s IP address and port number.
