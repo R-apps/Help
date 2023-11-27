@@ -29,9 +29,11 @@ By consuming an API, you can:
   For example, consuming a weather API to get real-time weather information for a specific location.
 * Offer your users a more comprehensive and enriched application, by providing access to additional services or data.
 
-This article explains how to consume a REST API. Reasy offers two ways to consume a REST API in two methods - one is by [configuring](consuming-rest-apis.md#configure-rest-api) and the other by [importing](consuming-rest-apis.md#import-api) raw text.
+### How to Consume an API?
 
-### Configure REST API
+Reasy offers two methods of consuming a REST API - one is by [configuring](consuming-rest-apis.md#configure-rest-api) and the other by [importing](consuming-rest-apis.md#import-api) raw text.
+
+#### Configure REST API
 
 To consume, click '![](<../../../.gitbook/assets/Create (5).png>)' in the Navigation Explorer and select **Consume REST API**. Then,
 
@@ -45,7 +47,7 @@ Check "Allow query parameters", to allow users to sort and filter data by append
 
 This creates an API. You can access it from the mapped entity in the Navigation Explorer. Open it to view its flow on the canvas. Now, you can modify the API as needed.
 
-### Import API <a href="#import-api" id="import-api"></a>
+#### Import API <a href="#import-api" id="import-api"></a>
 
 To import an API, switch to the **Import** tab and choose the file in JSON, YML, or YAML format. Alternatively, you can manually enter the code using the **Raw Text** option.
 
