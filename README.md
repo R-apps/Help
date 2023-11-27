@@ -12,7 +12,7 @@ With Reasy, you can rapidly develop enterprise applications that meet your busin
 
 ## Key Features
 
-**Version Control:** The REASY Platform allows you to maintain multiple versions of a solution, allowing rolling back and forth of versions as per the business requirements. With version control, all solutions can be tested concurrently in a sandbox, allowing change requests to be managed without impacting the live application.
+**Version Control:** The REASY Platform allows you to maintain multiple versions of an app, allowing rolling back and forth of versions as per the business requirements. With version control, different versions of an app can be tested concurrently in a sandbox, allowing change requests to be managed without impacting the live application.
 
 **Multi-tenancy**: Reasy supports multi-tenant architecture, each with a separate domain. Users invited by the domain admin will be a part of that tenant and can share apps among them.
 

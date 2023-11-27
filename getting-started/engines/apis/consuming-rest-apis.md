@@ -14,7 +14,22 @@ layout:
 
 # Consuming REST APIs
 
-This article explains how to consume a REST API.
+### What is API Consumption?
+
+Consuming an API means utilizing its functionalities, data, or services in your own applications or systems. It involves making requests to an API to access its features, retrieve data, or perform specific actions. This interaction is done by sending HTTP requests (such as GET, POST, or PUT) to the API endpoint, and in return, receiving the desired information or triggering specific actions.
+
+### Why Consume an API?
+
+By consuming an API, you can:
+
+* Integrate functionalities from other systems.
+* Leverage existing APIs for specific features, saving time and resources.\
+  For example, integrating a payment gateway API allows your application to process payments without building the payment processing logic from scratch.
+* Access to specific data sets or resources from external sources or services. \
+  For example, consuming a weather API to get real-time weather information for a specific location.
+* Offer your users a more comprehensive and enriched application, by providing access to additional services or data.
+
+This article explains how to consume a REST API. Reasy offers two ways to consume a REST API in two methods - one is by [configuring](consuming-rest-apis.md#configure-rest-api) and the other by [importing](consuming-rest-apis.md#import-api) raw text.
 
 ### Configure REST API
 

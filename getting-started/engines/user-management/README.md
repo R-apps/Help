@@ -14,9 +14,9 @@ layout:
 
 # User Management
 
-Reasy is equipped with **Users** engine, using which you can manage all of your user accounts. Furthermore, if your app is role-based, you can restrict users the access permissions based on their roles. Each role is associated with a set of permissions that determine what actions users with that role can take. For instance, an "Admin" might have full access to all modules, while an "Employee" might have limited access.
+Reasy is equipped with the **Users** engine, where you can manage all of your user accounts. Furthermore, if your app is role-based, you can restrict users' access permissions based on their roles. Each role is associated with a set of permissions that determine what actions users with that role can take. For instance, an "Admin" might have full access to all modules, while an "Employee" might have limited access.
 
-Users who sign up into your app are also displayed here.
+Users who sign up for your app are also displayed here.
 
 {% content-ref url="users.md" %}
 [users.md](users.md)
