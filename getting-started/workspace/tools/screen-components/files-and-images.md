@@ -54,7 +54,7 @@ Icons are often employed in menus and navigation bars for intuitive user guidanc
 
 ### Image Slider
 
-The Image Slider component allows you to display a series of images one after another. You have the option to display it as a gallery or a slideshow. You can also specify the duration if each slide and include an animation that fits well with your app.&#x20;
+The Image Slider component allows you to display a series of images one after another. You have the option to display it as a gallery or a slideshow. You can also specify the duration if each slide and include an animation that fits well with your app.
 
 <div align="left">
 
@@ -82,11 +82,30 @@ Ideal for apps that need SMS notifications, verifications, or text-based user co
 
 ### File Upload
 
-Our File Upload component simplifies the process of adding files to your application. It allows users to easily upload documents, images, or any digital files.
+The File Upload component allows your users to upload content of their own. This facilitates users to either select the desired file(s) to upload or drag and drop selected files directly into a drop zone area to upload. It allows your users to easily upload documents, images, or any digital files. Drag this component onto the canvas and customize its behavior by setting its properties, wherein you can
 
-### Dropdown File Upload
+* insert a placeholder,
+* restrict the file size,
+* set the maximum no. of files to be uploaded,&#x20;
+* define the accepted file types, and&#x20;
+* set validation messages when files fail to meet these criteria.
 
-### File Uploader
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/File Uploader.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+A file uploader is commonly found in forms but can also be used as a standalone element. This is often used in form submissions for attaching files or documents.
 
 ### Image Uploader
 
+The Image Uploader lets users add their images to personalize content. The Image Uploader lets users upload images, making it easier for them to share and engage with visual content. It facilitates you to restrict file size and set an error message when something fails.
+
+
+
+#### Use cases
+
+It is widely used in social media platforms or forums where users can upload images.
