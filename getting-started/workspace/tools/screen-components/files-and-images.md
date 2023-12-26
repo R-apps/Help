@@ -34,7 +34,7 @@ It's often used
 
 ### Profile Picture
 
-The Profile Picture component lets users upload and personalize their accounts. Adding a profile picture is simple. Drag it onto the canvas and a placeholder will appear. Add an image of yourself or an avatar by simply clicking on it to upload or capture your picture.
+The Profile Picture component lets users upload and personalize their accounts. Adding a profile picture is simple. Drag it onto the canvas and a placeholder will appear. Add an image of yourself or an avatar by simply clicking on it or capture your picture.
 
 ![](<../../../../.gitbook/assets/Profile Picture.png>)
 
@@ -82,7 +82,7 @@ Ideal for apps that need SMS notifications, verifications, or text-based user co
 
 ### File Upload
 
-The File Upload component allows your users to upload content of their own. This facilitates users to either select the desired file(s) to upload or drag and drop selected files directly into a drop zone area to upload. It allows your users to easily upload documents, images, or any digital files. Drag this component onto the canvas and customize its behavior by setting its properties, wherein you can
+The File Upload component allows your users to upload content of their own. This facilitates users to either select the desired file(s) to upload or drag and drop selected files directly into a drop zone area to upload. It allows your users to easily upload documents, images, or any digital files. Drag this component onto the canvas and customize its behavior by setting its properties, wherein you can:
 
 * insert a placeholder,
 * restrict the file size,
@@ -102,10 +102,10 @@ A file uploader is commonly found in forms but can also be used as a standalone 
 
 ### Image Uploader
 
-The Image Uploader lets users add their images to personalize content. The Image Uploader lets users upload images, making it easier for them to share and engage with visual content. It facilitates you to restrict file size and set an error message when something fails.
+The Image Uploader lets users add their images to personalize content. The Image Uploader lets users upload images, making it easier for them to share and engage with visual content. It enables you to restrict file size and set an error message when something fails.
 
 
 
 #### Use cases
 
-It is widely used in social media platforms or forums where users can upload images.
+It is widely used on social media platforms or forums where users can upload images.

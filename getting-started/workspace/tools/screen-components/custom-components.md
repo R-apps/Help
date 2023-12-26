@@ -60,7 +60,7 @@ The Progress Bar shows you how much of a task is done with a bar that fills up a
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/Progress bar (1).png" alt="" width="562"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Progress bar.png" alt="" width="560"><figcaption></figcaption></figure>
 
 </div>
 
@@ -74,7 +74,7 @@ The Progress Circle component represents progress in a circular format. It offer
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/Progress circle.png" alt="" width="193"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Progress circle (1).png" alt="" width="193"><figcaption></figcaption></figure>
 
 </div>
 
@@ -164,29 +164,89 @@ It is often used for sign-ups or form submissions to maintain the site’s integ
 
 ### Kendo Tree
 
+The Kendo Tree component can effectively organize and display hierarchical data. It offers a simple way to represent data with parent-child relationships in a tree-like structure for easy navigation.
 
+<div align="left">
 
-### Face book Signin
+<figure><img src="../../../../.gitbook/assets/Kendo Tree.png" alt="" width="254"><figcaption></figcaption></figure>
 
-### Twitter Sign in
+</div>
 
-### Linked in Sign in
+#### Use cases
 
-### Github Sign in
+Its common use cases include navigation menus for web apps, file explorers, and organizational charts, among other things. It works best for displaying nested data.
 
-### Google Sign in
+### Facebook Sign-in/Twitter Sign-in/LinkedIn Sign-in/Google Sign-in/ GitHub Sign-in
+
+These components help users authenticate through social platforms. This lets them sign into your app using their social media accounts. You can use these social sign-ins to authenticate faster.
+
+* Add Facebook Sign-in, if you want to make access easier while still using social connectivity.
+* For platforms that want to reach more people or start community discussions, use Twitter Sign-in.
+* Add LinkedIn Sign-in, to let users use their professional profiles to connect with new contacts or apply for jobs.
+* For developer-centric platforms, add GitHub Sign-in, to make it easier for users to join developer-focused platforms and get involved in the community.
+* Add Google Sign-In for a seamless login experience. It's a quick authentication process and a great way to make signing in easy for users.
 
 ### Timer
 
+Use the Timer component to count down or track time. Display time duration or intervals for users engaging in time-sensitive activities. You can choose the type of timer, set the countdown time, and customize its appearance.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Timer (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+This component is great for applications featuring countdowns, reminders, limited-time deals in e-commerce sites, or any scenario where you need to keep track of time.
+
 ### Weather Widget
+
+Keep users informed on the weather with the Weather Widget component. It provides real-time weather forecasts, or climatic details, either for the current day or for the next 5 days.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Weather widget.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is often used in travel apps or event planning platforms. Ideal for applications requiring weather updates, travel planning, or location-based services.
 
 ### Mobile Number
 
+The Mobile Number field is essential for communication-based services or verification processes.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Mobile number.png" alt="" width="394"><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+Useful in applications requiring user contact details, mobile number verification, or any scenario involving phone number input.
+
 ### Text Editor
+
+The Text Editor component empowers users to input and format text seamlessly within the app. It is a rich text editor with a range of editing functionalities such as bold, italic, underline, bullet points, and numbered lists. It offers a user-friendly interface that facilitates text manipulation, formatting, and customization, resembling familiar word processing software.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Text Editor.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+**Use Cases**
+
+Essential for applications involving content creation, document editing, note-taking, or any scenario requiring text input.
 
 ### Quantity
 
 ### Score Meter
+
+
 
 ### Paragraph
 
