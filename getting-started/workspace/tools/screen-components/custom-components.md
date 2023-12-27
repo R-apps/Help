@@ -20,7 +20,7 @@ Let's go over each of these components.
 
 ### Webcam
 
-The Webcam component lets users capture photos or enable live interactions using their device's camera within the app. It is a handy tool for seeing things in real-time.
+The Webcam component lets users capture photos or enable live interactions using their device's camera within the app. It is a handy tool for seeing things in real time.
 
 #### Use cases
 
@@ -226,7 +226,7 @@ The Mobile Number field is essential for communication-based services or verific
 
 #### Use cases
 
-Useful in applications requiring user contact details, mobile number verification, or any scenario involving phone number input.
+It is useful in applications requiring user contact details, mobile number verification, or any scenario involving phone number input.
 
 ### Text Editor
 
@@ -244,24 +244,124 @@ Essential for applications involving content creation, document editing, note-ta
 
 ### Quantity
 
+The Quantity component is a key tool in applications where your users need to input numbers or select quantities. It makes entering numeric data easier. Users can select values by simply increasing the number.
+
+![](../../../../.gitbook/assets/Quantity.png)
+
+#### Use cases
+
+It's commonly used in e-commerce checkouts, ordering systems, and other processes that involve working with quantities.
+
 ### Score Meter
 
+The Score Meter is an excellent tool for showing numerical scores or ratings in a user-friendly format. It makes gamified experiences better by giving users an easy way to see and understand scores, making data interpretation simple. You can customize it to match different score ranges or styles.
 
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Score meter.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is excellent for gaming platforms, educational apps, fitness apps, financial applications to represent credit scores, and more.
 
 ### Paragraph
 
+The Paragraph component is a versatile tool for displaying text in different sections of the app's interface. It helps organize and present text in a structured way.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Paragraph.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is commonly used to show information. You can use it to display error messages or alerts, create content snippets, explain form fields, and more.
+
 ### Step Wizard
+
+The Step Wizard component is great for breaking down complex tasks into easy-to-follow steps. It helps users easily navigate through the task, allowing them to move back and forth. You can alter its orientation, position, and number of steps, as needed.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Step wizard.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is commonly used in installations, onboarding, form submissions, banking apps, e-commerce checkouts, and more.
 
 ### Tabs
 
+The Tabs component lets you easily organize and segment your content with multiple tab options. Tabs represent different sections, making it easy for users to switch between content sets. It has clear visual indicators for active tabs, making navigation easy. You can customize it as needed.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Tabs.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+Tabs are commonly used in apps for multi-step processes. You could try using this component to better organize your content in a small space.
+
 ### Table
+
+The Table component helps you organize and display data systematically in rows and columns, enhancing data visualization and analysis. It allows customization of columns, rows, and cell formatting to suit specific data representation needs.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Table.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+This is essential for handling large volumes of data like inventory management systems, employee information, or any application that relies on structured data representation.
 
 ### Info
 
+Use the Info component to quickly share important information in your app. It is ideal for alert messages or helpful hints that will not distract users. You can choose to replace an icon and change its style and position.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Info.png" alt="" width="425"><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is commonly used in forms to explain fields, contextual information, instructional prompts to guide users through specific actions or steps, and more.
+
 ### Section Divider
+
+The Section Divider is a versatile UI component designed to organize and categorize content within your application. It creates a visual break, making it easier for users to distinguish between different sections of information.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Section Divider.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is often used in Single-page applications (SPAs), analytical dashboards, e-commerce platforms, and others.
 
 ### Numeric pad
 
+The Numeric Pad UI component is like a virtual keypad in your app that lets you quickly enter numbers. It's just like typing them on a keyboard. It makes entering numbers a breeze.
 
+<div align="left">
 
-You can even create a custom screen component. To learn how, [click here](../creating-custom-components.md) and follow the procedure.
+<figure><img src="../../../../.gitbook/assets/Numeric pad.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+ideal for financial platforms or any application that requires frequent numeric input.
+
+You can even create a custom screen component. To learn how, [click here](../creating-custom-components.md), and follow the procedure.
