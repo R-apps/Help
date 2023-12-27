@@ -97,7 +97,7 @@ Use cases for the calendar include:
 
 ### Calendar Range
 
-This extension of a standard Calendar allows users to select a range of dates rather than just a single date. It includes two date pickers (Calendars), one for the start ("from") date and another for the end ("to") date. It comes with a label to name the field and, if required, make it mandatory.
+This extension of a standard Calendar allows users to select a range of dates rather than just a single date. It includes two date pickers (calendars), one for the start ("from") date and another for the end ("to") date. It comes with a label to name the field and, if required, make it mandatory.
 
 <div align="left">
 
@@ -133,8 +133,22 @@ Use it when your users must select a range within a predetermined range of value
 
 Some common use cases include:
 
-* Property apps allow users to set a filter based on the budget that they are looking for,
+* Property apps allow users to set a filter based on the budget that they are looking for.
 * Product filters on e-commerce websites, and others.
+
+### List Slider
+
+The List Slider component combines the functionality of a list and a slider, allowing users to scroll through a collection of items horizontally. It helps users navigate easily through a set of content items or options.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/List Slider.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is usually used in Image Galleries, Product Catalogs, News Feeds, Feature Selections, and others.
 
 ### Checkbox
 
@@ -257,7 +271,7 @@ Some everyday use cases of Aadhaar include:
 
 ### SSN&#x20;
 
-An input field to facilitate your users in the USA to enter their SSN (Social Security Number) details. Even though you can collect this information with a simple textbox, the SSN component simplifies the process by helping your users enter their unique identity securely in a specific format, enabling you to record their information.
+An input field to facilitate your users in the USA entering their SSN (Social Security Number) details. Even though you can collect this information with a simple textbox, the SSN component simplifies the process by helping your users enter their unique identity securely in a specific format, enabling you to record their information.
 
 <div align="left">
 
@@ -265,7 +279,7 @@ An input field to facilitate your users in the USA to enter their SSN (Social Se
 
 </div>
 
-Use it when you must collect identity proof of users located in the USA.
+Use it when you must collect the identity proof of users located in the USA.
 
 #### Use cases
 
@@ -276,3 +290,60 @@ Some use cases of SSN fields include:
 * Credit applications,
 * Legal documents such as contracts and agreements,
 * Insurance and healthcare-related applications, and more.
+
+### HTML Editor
+
+The HTML Editor component makes it easy for your users to learn and try things out on their own. It provides an intuitive interface that simplifies the learning experience. The editor allows users to experiment with code. As they input the code, it shows a preview of how it will look.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/HTML Editor.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+Including this component in your HTML learning app is a fantastic idea. This resource is great for beginners who are excited to start learning HTML.
+
+### QR Code Generator
+
+Easily create QR codes using the QR Code Generator component. QR codes are square patterns that you can scan to get information. They're really handy for quickly sharing data. You can use this tool to quickly generate QR codes, which makes it easy to share and store information.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/QR code generator.png" alt="" width="149"><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is widely used in event invitations, product labelings, business cards, payment transactions, digital menus in restaurants, marketing collaterals, educational resources, and more.
+
+### Barcode Generator
+
+The Barcode Generator component makes it easier to generate barcodes, within the app. This component meets the industry standards and works with the scanners or systems you want to use. You can select the barcode type and content to display.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Barcode Generator.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is often used in inventory management, asset tracking, retail and sales, membership and loyalty programs, healthcare, and more.
+
+### Expiry Date
+
+The Expiry Date component allows you to effortlessly incorporate an expiration date feature in your application. Simply drag and drop the Expiry Date component into your application form or interface. Configure it by setting the desired expiry date and customizing the display format.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Expiry Date.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Use cases
+
+It is often used in subscription-based services, product inventories, password expiry, trial periods, health and safety compliance, and more.
+
