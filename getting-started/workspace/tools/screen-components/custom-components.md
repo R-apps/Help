@@ -126,7 +126,7 @@ This component is essential for banking apps and other secure applications. It e
 
 ### Video
 
-The Video component helps you embed videos directly into your app. Users can enjoy multimedia content without leaving the app, fostering an immersive experience. You can also make a playlist with a bunch of videos and decide if you want autoplay on or off.
+The video component helps you embed videos directly into your app. Users can enjoy multimedia content without leaving the app, fostering an immersive experience. You can also make a playlist with a bunch of videos and decide if you want autoplay on or off.
 
 <figure><img src="../../../../.gitbook/assets/Video.png" alt=""><figcaption></figcaption></figure>
 
@@ -150,7 +150,7 @@ This is often used in reviews, product feedback, or any scenario where user rati
 
 ### Captcha
 
-Adding Captcha to improve security. It checks if you are a real person and keeps your app safe from spam or bots. You can choose to use a captcha in text or numeric formats and decide where your users should go after they pass the verification.&#x20;
+Adding Captcha will improve security. It checks if you are a real person and keeps your app safe from spam or bots. You can choose to use a captcha in text or numeric formats and decide where your users should go after they pass the verification.&#x20;
 
 <div align="left">
 
@@ -176,15 +176,17 @@ The Kendo Tree component can effectively organize and display hierarchical data.
 
 Its common use cases include navigation menus for web apps, file explorers, and organizational charts, among other things. It works best for displaying nested data.
 
-### Facebook Sign-in/Twitter Sign-in/LinkedIn Sign-in/Google Sign-in/ GitHub Sign-in
+### Facebook Sign-in/Twitter Sign-in/LinkedIn Sign-in/Google Sign-in/GitHub Sign-in
 
 These components help users authenticate through social platforms. This lets them sign into your app using their social media accounts. You can use these social sign-ins to authenticate faster.
 
-* Add Facebook Sign-in, if you want to make access easier while still using social connectivity.
+* Add Facebook Sign-in if you want to make access easier while still using social connectivity.
 * For platforms that want to reach more people or start community discussions, use Twitter Sign-in.
-* Add LinkedIn Sign-in, to let users use their professional profiles to connect with new contacts or apply for jobs.
+* Add LinkedIn Sign-in to let users use their professional profiles to connect with new contacts or apply for jobs.
 * For developer-centric platforms, add GitHub Sign-in, to make it easier for users to join developer-focused platforms and get involved in the community.
 * Add Google Sign-In for a seamless login experience. It's a quick authentication process and a great way to make signing in easy for users.
+
+<figure><img src="../../../../.gitbook/assets/Social Logins.png" alt=""><figcaption></figcaption></figure>
 
 ### Timer
 
