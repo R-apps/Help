@@ -255,7 +255,7 @@ Some everyday use cases of Aadhaar include:
 **Note:** As it is significant in verifying users' identities and complying with legal and regulatory requirements, it is important to handle this sensitive information securely and ensure compliance with privacy and data protection regulations.
 {% endhint %}
 
-### SSN:&#x20;
+### SSN&#x20;
 
 An input field to facilitate your users in the USA to enter their SSN (Social Security Number) details. Even though you can collect this information with a simple textbox, the SSN component simplifies the process by helping your users enter their unique identity securely in a specific format, enabling you to record their information.
 

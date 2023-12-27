@@ -32,23 +32,41 @@ Let's go over each card type:
 
 ### Card Metric
 
-A card metric could be a number, percentage, rating, or status indicator that gives the user a quick summary of the card's contents.
+The card metric component in Reasy works like an analytical dashboard, with a summary shown at the top in the form of card snippets. You can customize every single part of it.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Card metric.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 **Use cases**
 
-Ideal for dashboards or analytics panels where key metrics need to be highlighted and for showcasing essential figures like sales, website traffic, or any measurable data points.
+Ideal for dashboards or analytics panels where key metrics need to be highlighted and to showcase essential figures like sales, website traffic, or any measurable data points.
 
 ### Card Profile
 
-A card profile typically includes a profile picture or icon, the entity's name or title, contact information, a brief description, or other relevant information. Card profiles provide a visually appealing, easy-to-read summary of an entity's information.
+A card profile typically includes a profile picture or icon, the entity's name or title, a brief description, or other relevant information. Card profiles provide a visually appealing, easy-to-read summary of an entity's information.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/card profile.png" alt="" width="443"><figcaption></figcaption></figure>
+
+</div>
 
 #### Use cases
 
-It is often used in social media, employee directories, and user profiles, including name, image, role, and contact information.
+It is often used in social media, employee directories, and user profiles, including name, image, role, and other key information.
 
 ### Card Form
 
-A card form is a confined space that houses form elements for capturing user input or allowing quick data entry without leaving the main interface.
+A card form is a confined space that houses form elements for capturing user input or allowing quick data entry without leaving the main interface. You can customize it by adding more form components to it.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Card form.png" alt="" width="491"><figcaption></figcaption></figure>
+
+</div>
 
 #### Use cases
 
@@ -56,7 +74,13 @@ This card type is commonly found on registration pages, contact forms, and any d
 
 ### Card Widget
 
-This card widget is a set of cards, that you can directly drag and use in your app interfaces where you need a set of cards to display essential information, such as app dashboards or mobile app home screens.&#x20;
+This card widget is a set of cards that you can directly drag and use in your app interfaces where you need a set of cards to display essential information, such as dashboard summaries or mobile app home screens.&#x20;
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Card widget.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Use cases
 
@@ -66,6 +90,12 @@ Several use cases for the card widget include news feeds, dashboard summaries, w
 
 This card component uses a visual bar format to illustrate progress toward a goal or completion status more engagingly.
 
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/card progress bar.png" alt="" width="449"><figcaption></figcaption></figure>
+
+</div>
+
 #### Use cases
 
 The common use cases of this card component include project tracking, loading content, poll/vote results, disk space management, and more.
@@ -73,6 +103,12 @@ The common use cases of this card component include project tracking, loading co
 ### Card Progress Circle
 
 This is similar to a progress bar, but it is displayed in a circular format within the card. It is appropriate for displaying completion percentages, milestones, or countdowns in a more visually appealing manner.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Crad progress circle.png" alt="" width="275"><figcaption></figcaption></figure>
+
+</div>
 
 #### Use cases
 
@@ -82,13 +118,25 @@ While the specific progress display may differ across applications, prominent us
 
 A card that displays comprehensive user-related details, including bio, user photo, contact info, social media links, and preferences, for a more in-depth understanding of a user's profile.
 
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Card user info.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
 #### Use cases
 
 Ideal use cases include social media platforms, contact directories, user account pages, and in systems requiring deeper user insights, like admin panels or CRM tools.
 
 ### Card Task
 
-A card that is best suited to highlight specific tasks, to-dos, or action items in a compact manner, typically including task name, status, priority, and due date.
+A card that is best suited to highlight specific tasks, to-dos, or action items compactly, typically including task name, status, priority, and due date.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/card task.png" alt="" width="501"><figcaption></figcaption></figure>
+
+</div>
 
 #### Use cases
 
@@ -96,15 +144,27 @@ It is often used in project management tools, task boards, or scheduling apps.
 
 ### Card Product
 
-This card component helps in exhibiting product information, including images, descriptions, prices, reviews, and purchase options in a concise format, as well as an actionable item such as "Add to cart.".
+This card component helps in exhibiting product information, including images, descriptions, prices, reviews, and purchase options in a concise format, as well as an actionable item such as "Add to cart." or "Check out".
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Card product.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 #### Use cases
 
-This card type is commonly used in e-commerce platforms or product catalog displays.
+This card type is commonly used in e-commerce platforms, hotels, or product catalog displays.
 
 ### Card User
 
-This is similar to Card Profile but focuses specifically on user-specific functionalities, interactions, or settings. This offers a condensed view of user-specific information, often containing basic details like name, role, and contact info for quick reference.
+This is similar to Card Profile but focuses specifically on user-specific functionalities, interactions, or settings. This offers a condensed view of user-specific information, often containing basic details like name, role, image, and contact info for quick reference.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/card user.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Use cases
 
@@ -114,13 +174,25 @@ Although the ideal use cases vary depending on the app-specific requirements, it
 
 This card component presents snippets of information or news headlines. It is used to display information, such as an icon or image representing the type of information, a short description, and CTA buttons like Learn More, Apply Now, and others.
 
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Card Info.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 #### Use cases
 
 Ideal for content-rich apps, news feeds, or informational displays.
 
 ### Card Upload
 
-Facilitates file or media uploads, allowing users to select and upload files.
+This card component allows users to select and upload files, gving it a name and description.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Card Upload.png" alt="" width="558"><figcaption></figcaption></figure>
+
+</div>
 
 #### Use cases
 
@@ -129,6 +201,12 @@ Utilized in file-sharing platforms, image galleries, or content management syste
 ### Card
 
 This is a plain card with a simple and clean layout. Plain cards are versatile and adaptable, fitting a wide range of content types and contexts. They are a design choice for emphasizing simplicity and clarity when presenting information.
+
+<div align="left">
+
+<figure><img src="../../../../.gitbook/assets/Card.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Use cases
 
