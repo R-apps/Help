@@ -20,14 +20,14 @@ BPMN (Business Process Modeling Notation) elements are the standard notations th
 [basic-tools.md](basic-tools.md)
 {% endcontent-ref %}
 
-{% content-ref url="data-sources.md" %}
-[data-sources.md](data-sources.md)
+{% content-ref url="../data-driven-plugins/data-sources.md" %}
+[data-sources.md](../data-driven-plugins/data-sources.md)
 {% endcontent-ref %}
 
-{% content-ref url="data-display.md" %}
-[data-display.md](data-display.md)
+{% content-ref url="../data-driven-plugins/data-display/" %}
+[data-display](../data-driven-plugins/data-display/)
 {% endcontent-ref %}
 
-{% content-ref url="business-tools.md" %}
-[business-tools.md](business-tools.md)
+{% content-ref url="../data-driven-plugins/data-display/business-tools.md" %}
+[business-tools.md](../data-driven-plugins/data-display/business-tools.md)
 {% endcontent-ref %}

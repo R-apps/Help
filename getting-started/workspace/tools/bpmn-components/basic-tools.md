@@ -16,34 +16,34 @@ layout:
 
 All the flow objects, connecting objects, swimlanes, and data are available here.&#x20;
 
-These flow elements are the components or building blocks that allow you to design and define the logic, behavior, and functionality of an application or process. These elements help you to create workflows, automation, and processes by visually connecting and configuring them.
+These flow elements are the components or building blocks that allow you to design and define the logic, behavior, and functionality of an application or process. These elements help you create workflows, automation, and processes by visually connecting and configuring them.
 
-### **Flow Objects**
+## **Flow Objects**
 
 Flow objects are the building blocks, which include Events, Activities, Artifact Groups, and Gateways, to help you define a flow and the behavior of a business process.
 
-#### Activity
+### Activity
 
 Activities represent work performed within a business process and are depicted as rounded rectangles with names. These notations help illustrate the work being done in a process.
 
 E.g. Tasks, Sub-process, etc.
 
-#### Gateways
+### Gateways
 
 Gateways, in diamond shapes, control how a business process flows by making decisions based on internal or external conditions. These notations help you separate and recombine flows based on certain conditions.\
-E.g.: Exclusive tool, which can be transformed into event-based, parallel, inclusive, etc. in its settings.
+E.g.: an Exclusive tool, which can be transformed into event-based, parallel, inclusive, etc. in its settings.
 
-#### Events
+### Events
 
 Events represent occurrences that can affect a business process and can be internal or external. They are shown as circles with icons to indicate the type of trigger. These notations serve as a trigger.\
-E.g., Initiating a starting point, intermediate step, or end point of a process.&#x20;
+E.g., initiating a starting point, intermediate step, or end point of a process.&#x20;
 
-#### Artifact Group
+### Artifact Group
 
-Groups help you visually organize your tasks/activities, without affecting the process.\
+Groups help you visually organize your tasks and activities without affecting the process.\
 E.g., Artifact Group
 
-#### **Connecting Objects**
+### **Connecting Objects**
 
 These include sequence flows, message flows, and associations, which connect the flow objects and represent the order and direction of the process flow.
 
@@ -51,10 +51,10 @@ E.g., Transition, which can be transformed into a message flow in the component 
 
 ## **Swimlanes**
 
-Swimlanes are typically used to separate different functions or roles within a process, making it easier to understand the flow of work and the responsibilities of each team or individual. They are often depicted as horizontal or vertical rows on a diagram, with each row representing a specific role, department, or team involved in the process. Swimlanes are depicted with “Pools” and “Lanes” to refer to different levels of organization within the process. A pool is the highest level of organization in a swimlane diagram; representing the entire process being mapped out, whereas a lane is a subset of the pool that represents a specific role or department within the process.
+Swimlanes are typically used to separate different functions or roles within a process, making it easier to understand the flow of work and the responsibilities of each team or individual. They are often depicted as horizontal or vertical rows on a diagram, with each row representing a specific role, department, or team involved in the process. Swimlanes are depicted with “Pools” and “Lanes” to refer to different levels of organization within the process. A pool is the highest level of organization in a swimlane diagram, representing the entire process being mapped out, whereas a lane is a subset of the pool that represents a specific role or department within the process.
 
 E.g., Swimlane, Swimlane Vertical.
 
 ## **Expanded Subprocess Loop**
 
-A sub-process is a graphical object within a process flow, which can be “opened up” to show another process (either embedded or independent). It comes with a ‘+’ sign in the lower center of the shape, indicating that the activity is a sub-process and has a lower level of detail. It offers you the opportunity to provide more detailed information about a particular step or task within a process.
+A sub-process is a graphical object within a process flow that can be “opened up” to show another process (either embedded or independent). It comes with a ‘+’ sign in the lower center of the shape, indicating that the activity is a sub-process and has a lower level of detail. It offers you the opportunity to provide more detailed information about a particular step or task within a process.
