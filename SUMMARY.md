@@ -44,7 +44,7 @@
     * [Responsive Grid System](getting-started/engines/screens/responsive-grid-system.md)
     * [Building App Layout](getting-started/engines/screens/building-app-layout.md)
     * [Building Screens](getting-started/engines/screens/building-screens.md)
-    * [Creating Popups](getting-started/engines/screens/creating-popups.md)
+    * [Creating Pop-up Screens](getting-started/engines/screens/creating-pop-up-screens.md)
     * [Events and Actions](getting-started/engines/screens/events-and-actions.md)
     * [Importing Screens](getting-started/engines/screens/importing-screens/README.md)
       * [Importing an HTML](getting-started/engines/screens/importing-screens/importing-an-html.md)

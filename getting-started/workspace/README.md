@@ -39,3 +39,5 @@ View the links to discover Reasy's workspace.&#x20;
 {% content-ref url="property-editor/" %}
 [property-editor](property-editor/)
 {% endcontent-ref %}
+
+{% embed url="https://youtu.be/j_rtbFQhE1w" %}

@@ -34,3 +34,7 @@ Click the links to explore importing a screen from various resources.
 {% content-ref url="text-to-screen.md" %}
 [text-to-screen.md](text-to-screen.md)
 {% endcontent-ref %}
+
+## Explore Through Video Learning
+
+{% embed url="https://youtu.be/dC2eOaiH5X0" %}

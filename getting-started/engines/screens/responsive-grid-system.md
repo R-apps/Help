@@ -33,7 +33,7 @@ This infographic illustrates the essentials of a 12-column grid layout.
 
 {% hint style="info" %}
 1. &#x20;To view the grids on the canvas, click![](<../../../.gitbook/assets/image (5).png>)on the canvas toolbar.
-2. Sections are crucial in building your app's interface. So, ensure that your components are exactly placed in order to efficiently manage and position the sections and elements within them.
+2. Sections are crucial in building your app's interface. So, ensure that your components are exactly placed to efficiently manage and position the sections and elements within them.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
@@ -42,14 +42,14 @@ This infographic illustrates the essentials of a 12-column grid layout.
 
 You can seamlessly rearrange, resize, and stack the elements.&#x20;
 
-When you don't require all 12 columns, resize and group the components together to create wider columns. To resize a component on the canvas, click and hold its section to expand or reduce it, making it fit within the desired number of columns.&#x20;
+When you don't require all 12 columns, resize and group the components to create wider columns. To resize a component on the canvas, click and hold its section to expand or reduce it, making it fit within the desired number of columns.&#x20;
 
 For instance, if you want to place two components side by side, you can fit each of them into 6 columns, or you can use one component with 4 columns and the other with 8 columns, essentially creating a two-column layout. Similarly, for three components in a row, you can fit each of them into 4 columns, resulting in a three-column layout. If you have a single component that only spans 4 columns, resize it to fit those 4 columns and place the next component in a separate section.
 
 So, it all depends on how you require it for your app's interface. However, make sure that the grid columns total up to twelve for a row.
 
 {% hint style="info" %}
-Only the components within a section will be auto arranged.
+Only the components within a section will be auto-arranged.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
@@ -59,7 +59,11 @@ Only the components within a section will be auto arranged.
 If you are working with a container or card that spans only fewer columns, say 6 columns, the container within itself will still function as a 12-column responsive grid. This will help to ensure that your content is displayed properly and looks great on all devices.
 
 {% hint style="info" %}
-**Note:** Depending on the screen size, the columns will re-arrange themselves: On a large screen, the content might look better structured in three columns, but on a mobile screen, the content elements might look better piled on top of each other. So, it is recommended that you test your screen on multiple devices before launching your app.
+**Note:** Depending on the screen size, the columns will rearrange themselves: On a large screen, the content might look better structured in three columns, but on a mobile screen, the content elements might look better piled on top of each other. So, it is recommended that you test your screen on multiple devices before launching your app.
 {% endhint %}
 
 By leveraging this 12-column grid, you can create visually appealing and user-friendly websites that cater to a wide range of devices.
+
+## Explore Through Video Learning
+
+{% embed url="https://youtu.be/G7A-n5O2qeo" %}
