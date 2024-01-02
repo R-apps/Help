@@ -48,7 +48,7 @@ Utilize the "Ctrl+Spacebar" hotkey to retrieve a list of these SQL commands, the
 
 Sample query to insert data into an entity:
 
-```
+```sql
 insert into entity_1 (CreatedDate,ModifiedDate,CreatedBy) values(?,?,?)
 ```
 
