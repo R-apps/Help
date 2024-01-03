@@ -130,7 +130,7 @@ Drag and drop to include the plugin in your API, select the required service, an
 
 ### APIConsumer
 
-The APIConsumer core plugin helps you connect and use external services or data in your app. This plugin helps you easily integrate services such as payment gateways, social media platforms, and data providers into your applications. It supports both REST and SOAP API formats.
+The APIConsumer core plugin helps you connect to and use external services or data in your app. This plugin helps you easily integrate services such as payment gateways, social media platforms, and data providers into your applications. It supports both REST and SOAP API formats.
 
 #### How to Use?
 
@@ -138,27 +138,46 @@ Simply drag and access the plugin interface, then enter the API URL you want to 
 
 ### EmailReaderPlugin
 
+The "EmailReader" plugin lets you read emails and extract useful data in a specific format from the chosen source. You can use it to automate email tasks and make workflows more efficient. E.g.: You can use it to extract leads from incoming emails and add them to your CRM or sales pipeline.
+
+#### How to Use?
+
+Add the plugin to your API workflow. Select the data source, username, and password, and select to read emails either the inbox or a specific folder. You have options to,
+
+* Read emails batch-wise, or&#x20;
+* Read emails between dates, or&#x20;
+* Read emails from a specific person, or&#x20;
+* Read all emails
+
+Based on the option you opt to read from, configure it in the Input Configuration tab.&#x20;
+
+You also have the option to read only new emails, mark emails as read, and move them to a folder. After you set it up, you can configure it to extract data from incoming emails. This includes information such as sender, subject line, body text, date, attachments, and more.
+
+### EmailSending
+
+
+
 ### FileReaderPlugin
 
-### PropertyReader
+### FileWriterPlugin
+
+### FileWriterService
 
 ### FileDownloadPlugin
 
-### FileWriterPlugin
+### FileUtils
+
+### PropertyReader
+
+### DateUtils
 
 ### JsonUtils
 
 ### JoinPlugin
 
-### FileWriterService
-
-### DateUtils
-
-### EmailSending
-
 ### EncryptDecrypt
 
 ### StringUtils
 
-### FileUtils
+###
 
