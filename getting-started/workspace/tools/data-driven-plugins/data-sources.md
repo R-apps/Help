@@ -106,13 +106,13 @@ Just drag and drop the plugin into your app's interface. Customize the settings 
 
 ### MethodInvoker
 
-The "MethodInvoker" plugin makes it easy for you to invoke/call methods on objects and classes in your app, and work with data in real time. You can pick a method, enter parameter values, and run it. This plugin makes complex tasks easier without any coding. It can run specific methods easily with just a few clicks.&#x20;
+The "MethodInvoker" plugin makes it easy for you to invoke or call methods on objects and classes in your app and work with data in real time. You can pick a method, enter parameter values, and run it. This plugin makes complex tasks easier without any coding. It can run specific methods easily with just a few clicks.
 
 You can use it to call an API and get data for your app. The plugin is great for APIs that don't have good documentation. It lets you try out different methods and parameters.
 
 #### How to Use?
 
-Simply drag and drop the plugin onto your app's canvas. Select the entity and the method to invoke in your app's workflow. Configure the necessary parameters and there you go.
+Simply drag and drop the plugin onto your app's canvas. Select the entity and the method to invoke in your app's workflow. Configure the necessary parameters, and there you go.
 
 ### UMPlugin
 
@@ -124,8 +124,9 @@ Drag and drop to include the plugin in your API, select the required service, an
 
 {% hint style="info" %}
 **Note:** \
-**-** When you are attempting to fetch or update users' information, you will need to select the parameters to fetch and configure them in the Output configuration tab.\
-\- When you are attempting to perform actions such as 'Lock User', 'Deactivate User', 'Delete User', and 'Change Password', you need to configure the necessary parameters in the Input configuration tab.
+When you are attempting to fetch or update users' information, you will need to select the parameters to fetch and configure them in the Output Configuration tab.\
+\
+When you are attempting to perform actions such as 'Lock User', 'Deactivate User', 'Delete User', and 'Change Password', you need to configure the necessary parameters in the Input configuration tab.
 {% endhint %}
 
 ### APIConsumer
@@ -151,13 +152,33 @@ Add the plugin to your API workflow. Select the data source, username, and passw
 
 Based on the option you opt to read from, configure it in the Input Configuration tab.&#x20;
 
-You also have the option to read only new emails, mark emails as read, and move them to a folder. After you set it up, you can configure it to extract data from incoming emails. This includes information such as sender, subject line, body text, date, attachments, and more.
+You also have the option to read only new emails, mark emails as read, and move them to a folder. After you set it up, you can configure it to extract data from incoming emails. This includes information such as the sender, subject line, body text, date, attachments, and more.
 
 ### EmailSending
 
+The "EmailSending" plugin empowers you to effortlessly send emails directly from your application. You can automate sending emails for notifications, updates, or any communication needed within your app. Employ this plugin to
 
+* simplify communication processes within your app,
+* reduce manual effort, and
+* Keep your users informed in real time.
+
+It's widely used for sending notification alerts for account-related activities, welcome emails to newly onboarded users, transaction confirmations, subscription updates, event registrations, and others.
+
+#### How to Use?
+
+Add this plugin to your API workflow, and choose the [email source](#user-content-fn-1)[^1] that connects to the target email server and a template for email text. You have the following options to choose the email format the way you need:
+
+* Inline template - Select this to include images and specify the no. of images to include.
+* Inline as HTML -&#x20;
+* Attachment - Select this option to insert attachments to the email, and select the maximum no. of attachments. If you would like to have an attachments name dynamic, choose "Attachment name as dynamic".
+* Configure message template - Select this option to write the email content manually.
+* Email Sending status codes - Click this to view the email sending status codes to understand the stats received in response.
+
+Based on your selection, configure the necessary attributes in the Input Configuration tab along with the basic attributes like to, from, cc, bcc, subject, etc. To extract the email status, msg\_id, and others, configure them in the Output configuration tab.
 
 ### FileReaderPlugin
+
+
 
 ### FileWriterPlugin
 
@@ -181,3 +202,6 @@ You also have the option to read only new emails, mark emails as read, and move 
 
 ###
 
+
+
+[^1]: Configure the email source in the **Resources** engine. Selecting it allows the app to connect to it.

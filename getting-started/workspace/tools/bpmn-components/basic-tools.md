@@ -16,22 +16,22 @@ layout:
 
 All the flow objects, connecting objects, swimlanes, and data are available here.&#x20;
 
-These flow elements are the components or building blocks that allow you to design and define the logic, behavior, and functionality of an application or process. These elements help you create workflows, automation, and processes by visually connecting and configuring them.
+These flow elements are the components or building blocks that allow you to design and define the logic, behavior, and functionality of an application or process. These elements help you create workflows to automate your business processes by visually connecting and configuring them.
 
 ## **Flow Objects**
 
-Flow objects are the building blocks, which include Events, Activities, Artifact Groups, and Gateways, to help you define a flow and the behavior of a business process.
+Flow objects are the building blocks, which include events, activities, artifact groups, and gateways, to help you define a flow and the behavior of a business process.
 
 ### Activity
 
 Activities represent work performed within a business process and are depicted as rounded rectangles with names. These notations help illustrate the work being done in a process.
 
-E.g. Tasks, Sub-process, etc.
+E.g., tasks, sub-process, etc.
 
 ### Gateways
 
 Gateways, in diamond shapes, control how a business process flows by making decisions based on internal or external conditions. These notations help you separate and recombine flows based on certain conditions.\
-E.g.: an Exclusive tool, which can be transformed into event-based, parallel, inclusive, etc. in its settings.
+E.g., an Exclusive tool that can be transformed into event-based, parallel, inclusive, etc. in its settings.
 
 ### Events
 
