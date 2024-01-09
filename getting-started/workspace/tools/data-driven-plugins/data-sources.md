@@ -20,39 +20,47 @@ Here are the data sources that Reasy offers:
 
 ### SQLPlugin
 
-The "SQLPlugin" is your go-to plugin that makes handling data a breeze. It is your gateway to handling data dynamically without needing complex coding. \[<mark style="color:blue;">Connecting app to a specific database</mark>]
-
-You can fetch and display specific data from your database effortlessly. You can update your app's content in real-time based on changes in data. It's great when you want specific information without having to go through the entire dataset.
+The "SQLPlugin" is your go-to plugin for easy data management. It is your gateway to dynamically handling data without the need for complex coding. This plugin allows you to connect to a database and create, read, update, and delete specific data from your database in real time.
 
 #### How to Use?
 
 * Simply drag and drop the SQL plugin into your app's interface.
 * Configure the plugin by specifying the [data source](#user-content-fn-1)[^1]. Fetch the tables (entities) and columns (attributes).
-* Select the query type, and then use our easy-to-use query builder to write the query you need without having to deal with complicated code.
+* Select the query type, and then use our simple query builder to build the query you require without having to deal with complicated code.
 
-Tip: Validate your query and save your configuration.&#x20;
+{% hint style="info" %}
+**Pro Tip**: Before saving your configuration, validate the query for its accuracy.
+{% endhint %}
 
 It's that simple.
 
 #### Query Building
 
-Here's a glance at SQL commands for CRUD operations:
+Here's a glance at SQL keywords for CRUD operations:
 
-* `CREATE creates a new entity in the` database
+* `CREATE`creates a new entity in the database
 * `SELECT`extracts data from the database
 * `UPDATE`updates data in the database
 * `DELETE`deletes data from the database
 * `INSERT INTO`inserts new data into the database
 
 {% hint style="info" %}
-Utilize the "Ctrl+Spacebar" hotkey to retrieve a list of these SQL keywords, then choose the desired one.
+**Pro Tip**: Utilize the hotkey - "Ctrl+Spacebar", to retrieve a list of these SQL keywords, entities, and attributes, to build queries quickly and effortlessly.
 {% endhint %}
 
-Sample query to insert data into an entity:
+Here are some sample queries to help you understand building queries:
 
+{% code title="Query to create an entity:" %}
 ```sql
-insert into entity_1 (CreatedDate,ModifiedDate,CreatedBy) values(?,?,?)
+create Product_info (ProductId,ProductName,Category,PurchaseDate) values(?,?,?,?)
 ```
+{% endcode %}
+
+{% code title="Query to select data:" %}
+```sql
+select CreatedDate,ModifiedDate,CreatedBy,UniqueID from entity_1  where UniqueID=?
+```
+{% endcode %}
 
 Similarly, you can build queries using our handy list of SQL commands quickly and effortlessly.
 
