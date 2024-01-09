@@ -20,16 +20,17 @@ Here are the data sources that Reasy offers:
 
 ### SQLPlugin
 
-The "SQLPlugin" is your go-to plugin that makes handling data a breeze. It is your gateway to handling data dynamically without needing complex coding.&#x20;
+The "SQLPlugin" is your go-to plugin that makes handling data a breeze. It is your gateway to handling data dynamically without needing complex coding. \[<mark style="color:blue;">Connecting app to a specific database</mark>]
 
 You can fetch and display specific data from your database effortlessly. You can update your app's content in real-time based on changes in data. It's great when you want specific information without having to go through the entire dataset.
 
 #### How to Use?
 
 * Simply drag and drop the SQL plugin into your app's interface.
-* Configure the plugin by specifying the data source. Fetch the tables (entities) and columns (attributes).
-* Select the query type, and then use our easy-to-use query builder to write the query you need without having to deal with complicated code.&#x20;
-* Validate your query and save your configuration.&#x20;
+* Configure the plugin by specifying the [data source](#user-content-fn-1)[^1]. Fetch the tables (entities) and columns (attributes).
+* Select the query type, and then use our easy-to-use query builder to write the query you need without having to deal with complicated code.
+
+Tip: Validate your query and save your configuration.&#x20;
 
 It's that simple.
 
@@ -37,13 +38,14 @@ It's that simple.
 
 Here's a glance at SQL commands for CRUD operations:
 
+* `CREATE creates a new entity in the` database
 * `SELECT`extracts data from the database
 * `UPDATE`updates data in the database
 * `DELETE`deletes data from the database
 * `INSERT INTO`inserts new data into the database
 
 {% hint style="info" %}
-Utilize the "Ctrl+Spacebar" hotkey to retrieve a list of these SQL commands, then choose the desired one.
+Utilize the "Ctrl+Spacebar" hotkey to retrieve a list of these SQL keywords, then choose the desired one.
 {% endhint %}
 
 Sample query to insert data into an entity:
@@ -52,11 +54,11 @@ Sample query to insert data into an entity:
 insert into entity_1 (CreatedDate,ModifiedDate,CreatedBy) values(?,?,?)
 ```
 
-Similarly, you construct the queries using our handy list of SQL commands.
+Similarly, you can build queries using our handy list of SQL commands quickly and effortlessly.
 
 ## SessionPlugin
 
-The "Session Plugin" allows you to memorize the users' sessions and effortlessly manage and manipulate data within your application. You can dynamically control your app's behavior based on user interactions and system events. These parameters can be usernames, passwords, tokens, or other sensitive information.&#x20;
+The "Session Plugin" allows you to memorize the user's sessions and effortlessly manage and manipulate data within your application until the user logs out. Within the session, you can control your user's access to the app. These parameters can be usernames, passwords, tokens, or other information.&#x20;
 
 As users interact with your application, the plugin silently stores and manages essential data, ensuring a smooth and personalized user experience.&#x20;
 
@@ -68,29 +70,33 @@ Let's glance at which utility to understand when and where to use.&#x20;
 
 **Session Exist:** Use this utility to keep track of logged-in users' details, maintaining their session data to provide a personalized experience without constant re-authentication.&#x20;
 
-**Set parameters:** Use the "Set Parameters" utility by defining the parameter name and setting its value based on user input or system events.&#x20;
+**Set parameters:** Use the "Set Parameters" <mark style="color:blue;">method</mark> utility by defining the parameter name and setting its value based on user input.&#x20;
 
-**Get Parameters:** Use the "Get Parameters" utility to retrieve and utilize these values across various sections of your application, by defining the parameter name and setting its value.&#x20;
+**Get Parameters:** Use the "Get Parameters" utility to retrieve the set parameters and utilize them across any API involved in your application, by defining the parameter name.&#x20;
 
 **Get UserName:** Use this utility to retrieve the logged-in user's username.&#x20;
 
 **Get UserId:** Use this utility to retrieve the logged-in user's User ID.&#x20;
 
+\---> <mark style="color:blue;">Other than the username & Role id, any other parameters that we are defining can be retrieved using "GET"</mark>
+
 {% hint style="info" %}
 **Note:**&#x20;
 
-\-When you are dealing with the "Set Parameters" utility, specify the data type, value type, and value in the "Input configuration" tab.
+\-When you are dealing with the "Set Parameters" utility, specify the data type, value type, and value in the "Input Configuration" tab.
 
-\-When you are dealing with the "Get" utility, specify the data type and its scope of use (local/global) in the "Output Configuration" tab.
+\-When you are dealing with the "Get" utility, specify the data type and its scope of use (local/global) in the "Output Configuration" tab. ---> This can be used within that API
 {% endhint %}
 
 ### MakeServerURL
 
 The MakeServerURL plugin is perfect for making dynamic server URLs. You don't have to manually change the URL anymore. You can simply use the MakeServerURL plugin to handle it for you. You can use the MakeServerURL plugin to handle it easily. It allows you to change server URLs on the go, making your app adaptable to different environments. It's perfect when you choose to use a URL to view or download a file.
 
+\---> To access a file within the app using a URL, use this plugin.&#x20;
+
 #### How to Use?
 
-Just drag and drop the MakeServerURL plugin into your app's workflow. Choose the source file and configure the rules to generate a dynamic URL in the plugin settings. The plugin creates a server URL based on your settings, so your users can easily access the correct destination.
+Just drag and drop the MakeServerURL plugin into your API flow. Choose the source file and configure the rules to generate a dynamic URL in the plugin settings. The plugin creates a server URL based on your settings, so your users can easily access the correct resource. <mark style="color:blue;">These resources can be images, HTMLs, PDF, anything...</mark>
 
 ### PrivatePDM
 
@@ -156,31 +162,64 @@ You also have the option to read only new emails, mark emails as read, and move 
 
 ### EmailSending
 
-The "EmailSending" plugin empowers you to effortlessly send emails directly from your application. You can automate sending emails for notifications, updates, or any communication needed within your app. Employ this plugin to
+The "EmailSending" plugin empowers you to effortlessly send emails directly from your app. You can automate sending emails for notifications, updates, or any communication needed within your app. Employ this plugin to
 
 * simplify communication processes within your app,
 * reduce manual effort, and
 * Keep your users informed in real time.
 
-It's widely used for sending notification alerts for account-related activities, welcome emails to newly onboarded users, transaction confirmations, subscription updates, event registrations, and others.
+It's widely used for sending notification alerts for account-related activities, welcome emails to newly onboarded users, transaction confirmations, subscription updates, confirmation emails for event registrations, and more.
 
 #### How to Use?
 
-Add this plugin to your API workflow, and choose the [email source](#user-content-fn-1)[^1] that connects to the target email server and a template for email text. You have the following options to choose the email format the way you need:
+Add the plugin to your API workflow, and choose the [email source](#user-content-fn-2)[^2] that connects to the target email server and a template for email text. You have the following options to choose to customize the email format:
 
-* Inline template - Select this to include images and specify the no. of images to include.
-* Inline as HTML -&#x20;
-* Attachment - Select this option to insert attachments to the email, and select the maximum no. of attachments. If you would like to have an attachments name dynamic, choose "Attachment name as dynamic".
-* Configure message template - Select this option to write the email content manually.
-* Email Sending status codes - Click this to view the email sending status codes to understand the stats received in response.
+* **Inline template** - Select this to include images and specify the no. of images to include.
+* **Inline as HTML** - Select this to customize emails using HTML.
+* **Attachment** - Select this option to insert attachments to the email, and select the maximum no. of attachments. For dynamic attachment names, select "Attachment name as dynamic."
+* **Configure message template** - Select this option to craft the email content.
+* **Email Sending status codes** - Click to view the email sending status codes to understand responses.
 
-Based on your selection, configure the necessary attributes in the Input Configuration tab along with the basic attributes like to, from, cc, bcc, subject, etc. To extract the email status, msg\_id, and others, configure them in the Output configuration tab.
+Based on your selection, configure the necessary attributes in the Input Configuration tab along with the basic attributes - to, from, cc, bcc, and subject. Extract email status, msg\_id, and other essential details by configuring them in the Output Configuration tab.
 
 ### FileReaderPlugin
 
+The "FileReader" plugin allows your app to read files and extract data from them. It is your go-to tool to effortlessly read and process files within your low-code applications. Integrate the File Reader into automated workflows to dynamically load content such as images or documents based on user-uploaded files; and process them without manual intervention.&#x20;
 
+{% hint style="info" %}
+**Pro Tip:** Ensure that your users are aware of the accepted file formats to streamline the reading process.
+{% endhint %}
+
+#### How to Use?
+
+Drop the File Reader plugin into your API flow. Open its configuration and specify the file type. Here's the summary of each file type to help you understand what it is and when to use it:&#x20;
+
+* **CSVFileReader**: This reader type reads Comma-Separated Values (CSV) files and tabular data with rows and columns. Choose this reader if your app requires data analysis, CSV data migration to databases, or report generation.
+* **CAPXMLReader**: This reader type handles Common Alerting Protocol (CAP) files. Consider using this reader for exchanging emergency alerts and public warnings. Integrate CAP alerts into applications for real-time notifications during crises or disasters.
+* **ExcelFileReader**: This helps read Microsoft Excel files (XLS or XLSX) effortlessly. It's adept at handling spreadsheet data with multiple sheets and formatting. Use this reader to import data from Excel files.
+* **JSONFileReader**: This reader type reads JavaScript Object Notation (JSON) files, a lightweight data interchange format used for data storage and exchange between systems. Use it in APIs that utilize JSON for data exchange.
+* **XMLFileReader**: This reader type helps in handling eXtensible Markup Language (XML) files, a format used to store and transport structured data. Use it in web services that utilize XML for data exchange or configuration.
+
+File headers usually are dynamic. For static file header(s), specify them including their data types, and whether or not they are required. Specify the attribute that holds the file in the Input Configuration tab. Extract to configure the attributes that hold the defined headers and their occurrence (local/global), in the Output Configuration tab.
 
 ### FileWriterPlugin
+
+The "FileWriter" plugin makes it easier to create and update files in your app. This plugin's intuitive interface makes file management a breeze. You can automate the process of generating new files on the fly, specifying formats and extensions according to your needs; and update existing files. This plugin supports various file formats, including CSV, EXCEL, JSON, and XML, enabling versatile file handling.
+
+You may consider using this plugin to:
+
+* save form submissions directly into files for organized data management,&#x20;
+* export dynamic data, such as reports or analytics, into user-readable files, and more
+
+#### How to Use?
+
+Drag the File Writer plugin into your API flow. Choose an output file format and select an option to add the content received from the user's input - select "New file" to generate a new file or "Existing file" to add the user's input to an existing file.&#x20;
+
+{% hint style="info" %}
+To add dynamic content to an existing EXCEL file, select the "Custom sheet" and provide the sheet name, into which the data has to be appended.
+{% endhint %}
+
+Next, if you would likely use the default headers, enable the "Use default headers" option, else, specify the file headers in sequence for custom headers. Additionally, you can set font styles for the header and body separately, if the output format is Excel.
 
 ### FileWriterService
 
@@ -204,4 +243,6 @@ Based on your selection, configure the necessary attributes in the Input Configu
 
 
 
-[^1]: Configure the email source in the **Resources** engine. Selecting it allows the app to connect to it.
+[^1]: Configure this data source in the **Resources** engine that connects to your target database.
+
+[^2]: Configure the email source in the **Resources** engine. Selecting it allows the app to connect to it.
