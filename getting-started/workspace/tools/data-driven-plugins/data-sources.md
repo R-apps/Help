@@ -45,10 +45,10 @@ Here's a glance at SQL keywords for CRUD operations:
 * `INSERT INTO`inserts new data into the database
 
 {% hint style="info" %}
-**Pro Tip**: Utilize the hotkey - "Ctrl+Spacebar", to retrieve a list of these SQL keywords, entities, and attributes, to build queries quickly and effortlessly.
+**Pro Tip**: Utilize the hotkey "Ctrl+Spacebar" to retrieve a list of these SQL keywords, entities, and attributes to build queries quickly and effortlessly.
 {% endhint %}
 
-Here are the query formats to help you understand building queries:
+Here are the sample queries for CRUD operations:
 
 {% code title="Query to create an entity:" %}
 ```sql
@@ -74,7 +74,7 @@ update product_info set Category='Infrastructure'
 ```
 {% endcode %}
 
-{% code title="Query to delete data:" %}
+{% code title="Query to delete a record:" %}
 ```sql
 delete from entity_1 where UniqueID=?
 ```
@@ -92,43 +92,47 @@ As users interact with your application, the plugin silently stores and manages 
 
 #### How to Use?
 
-Simply drag and access the plugin interface, where you can define and assign parameters based on your application's requirements. Configure the plugin and save your configurations.&#x20;
+Simply drag and access the plugin interface, where you can define and assign parameters based on your application's requirements. Configure the plugin and save your configurations.
 
-Let's glance at which utility to understand when and where to use.&#x20;
+Let's glance at which utility (method) to understand when and where to use.&#x20;
 
-**Session Exist:** Use this utility to keep track of logged-in users' details, maintaining their session data to provide a personalized experience without constant re-authentication.&#x20;
+**Session Exist:** Use this method to keep track of logged-in users' details, maintaining their session data to provide a personalized experience without constant re-authentication.&#x20;
 
-**Set parameters:** Use the "Set Parameters" <mark style="color:blue;">method</mark> utility by defining the parameter name and setting its value based on user input.&#x20;
+**Set parameters:** Use this method to tell the plugin to store a specific parameter, by defining the parameter name and value.&#x20;
 
-**Get Parameters:** Use the "Get Parameters" utility to retrieve the set parameters and utilize them across any API involved in your application, by defining the parameter name.&#x20;
+**Get Parameters:** Use this method to get to retrieve the set parameters using the parameter name, to utilize them across the APIs involved in your application.
 
-**Get UserName:** Use this utility to retrieve the logged-in user's username.&#x20;
+**Get UserName:** Use this method to retrieve the logged-in user's username.&#x20;
 
 **Get UserId:** Use this utility to retrieve the logged-in user's User ID.&#x20;
 
-\---> <mark style="color:blue;">Other than the username & Role id, any other parameters that we are defining can be retrieved using "GET"</mark>
+{% hint style="info" %}
+**Note**: By default, the plugin memorizes the username and role id parameters. Any additional parameters you want the plugin to remember can be specified using the SET method and retrieved using the GET method.
+{% endhint %}
 
 {% hint style="info" %}
-**Note:**&#x20;
+**Pro Tip:**&#x20;
 
-\-When you are dealing with the "Set Parameters" utility, specify the data type, value type, and value in the "Input Configuration" tab.
+\-When you are dealing with the "Set" methods, specify the data type, value type, and value in the Input Configuration tab.
 
-\-When you are dealing with the "Get" utility, specify the data type and its scope of use (local/global) in the "Output Configuration" tab. ---> This can be used within that API
+\-When you are dealing with the "Get" method, specify the data type and its scope of use (local/global) in the Output Configuration tab. Usually, this parameter information can be used within the API.
 {% endhint %}
 
 ### MakeServerURL
 
-The MakeServerURL plugin is perfect for making dynamic server URLs. You don't have to manually change the URL anymore. You can simply use the MakeServerURL plugin to handle it for you. You can use the MakeServerURL plugin to handle it easily. It allows you to change server URLs on the go, making your app adaptable to different environments. It's perfect when you choose to use a URL to view or download a file.
-
-\---> To access a file within the app using a URL, use this plugin.&#x20;
+The "MakeServerURL" plugin generates a dynamic URL for the specified file using the rules you specify. It works perfectly when you choose to use a URL to view or download a file. You can use this URL to allow users to change their profile pictures, upload an identity proof or a document via a specific URL, and more. The source file can be an image, HTML, PDF, or any other.
 
 #### How to Use?
 
-Just drag and drop the MakeServerURL plugin into your API flow. Choose the source file and configure the rules to generate a dynamic URL in the plugin settings. The plugin creates a server URL based on your settings, so your users can easily access the correct resource. <mark style="color:blue;">These resources can be images, HTMLs, PDF, anything...</mark>
+Just drag and drop the MakeServerURL plugin into your API flow. Choose the source file and configure the rules to generate a dynamic URL in the plugin settings. The plugin creates a server URL based on your settings, so your users can easily access the correct resource.
 
 ### PrivatePDM
 
-<>
+The "PrivatePDM" plugin allows you to define an attribute to hold a value that will be used in the API. This is a transient attribute and is not saved in the database. For instance, you can use private PDM to store the job id in an attribute of any Job process.
+
+#### How to Use?
+
+Drag the PrivatePDM plugin into your API flow. Click **Add New Field** to define the attribute name and datatype.
 
 ### Logout
 
