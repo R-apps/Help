@@ -48,11 +48,11 @@ Here's a glance at SQL keywords for CRUD operations:
 **Pro Tip**: Utilize the hotkey - "Ctrl+Spacebar", to retrieve a list of these SQL keywords, entities, and attributes, to build queries quickly and effortlessly.
 {% endhint %}
 
-Here are some sample queries to help you understand building queries:
+Here are the query formats to help you understand building queries:
 
 {% code title="Query to create an entity:" %}
 ```sql
-create Product_info (ProductId,ProductName,Category,PurchaseDate) values(?,?,?,?)
+create enity_name (ProductId,ProductName,Category,PurchaseDate) values(?,?,?,?)
 ```
 {% endcode %}
 
@@ -62,7 +62,27 @@ select CreatedDate,ModifiedDate,CreatedBy,UniqueID from entity_1  where UniqueID
 ```
 {% endcode %}
 
-Similarly, you can build queries using our handy list of SQL commands quickly and effortlessly.
+{% code title="Query to insert data:" %}
+```sql
+insert into entity_1 (CreatedDate,ModifiedDate,CreatedBy) values(?,?,?)
+```
+{% endcode %}
+
+{% code title="Query to update data:" %}
+```sql
+update product_info set Category='Infrastructure'    
+```
+{% endcode %}
+
+{% code title="Query to delete data:" %}
+```sql
+delete from entity_1 where UniqueID=?
+```
+{% endcode %}
+
+{% hint style="info" %}
+**Hint**: When dealing with static data, enter the values; when dealing with dynamic data, insert '?' symbols equal to the number of attributes. When dealing with both static and dynamic data, specify values and use '?' in combination.
+{% endhint %}
 
 ## SessionPlugin
 
