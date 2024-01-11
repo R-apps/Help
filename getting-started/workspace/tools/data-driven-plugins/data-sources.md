@@ -181,14 +181,14 @@ The "EmailReader" plugin lets you read emails and extract useful data in a speci
 
 #### How to Use?
 
-Add the plugin to your API workflow. Select the data source, username, and password, and select to read emails either the inbox or a specific folder. You have options to,
+Add the plugin to your API workflow. Select the data source, username, and password, and select to read emails from either the inbox or a specific folder. You have options to:
 
-* Read emails batch-wise, or&#x20;
+* Read emails batch-wise, or
 * Read emails between dates, or&#x20;
 * Read emails from a specific person, or&#x20;
 * Read all emails
 
-Based on the option you opt to read from, configure it in the Input Configuration tab.&#x20;
+Based on the option you choose to read from, configure it in the Input Configuration tab.&#x20;
 
 You also have the option to read only new emails, mark emails as read, and move them to a folder. After you set it up, you can configure it to extract data from incoming emails. This includes information such as the sender, subject line, body text, date, attachments, and more.
 
@@ -204,13 +204,13 @@ It's widely used for sending notification alerts for account-related activities,
 
 #### How to Use?
 
-Add the plugin to your API workflow, and choose the [email source](#user-content-fn-2)[^2] that connects to the target email server and a template for email text. You have the following options to choose to customize the email format:
+Add the plugin to your API workflow, and choose the [email source](#user-content-fn-2)[^2] that connects to the target email server and a template for email text. You have the following options to choose from to customize the email format:
 
-* **Inline template** - Select this to include images and specify the no. of images to include.
-* **Inline as HTML** - Select this to customize emails using HTML.
-* **Attachment** - Select this option to insert attachments to the email, and select the maximum no. of attachments. For dynamic attachment names, select "Attachment name as dynamic."
-* **Configure message template** - Select this option to craft the email content.
-* **Email Sending status codes** - Click to view the email sending status codes to understand responses.
+* **Inline template:** Select this to include images and specify the no. of images to include.
+* **Inline as HTML:** Select this to customize emails using HTML.
+* **Attachment:** Select this option to insert attachments to the email, and select the maximum no. of attachments. For dynamic attachment names, select "Attachment name as dynamic."
+* **Configure message template:** Select this option to craft the email content.
+* **Email Sending status codes:** Click to view the email sending status codes to understand responses.
 
 Based on your selection, configure the necessary attributes in the Input Configuration tab along with the basic attributes - to, from, cc, bcc, and subject. Extract email status, msg\_id, and other essential details by configuring them in the Output Configuration tab.
 
@@ -236,7 +236,7 @@ File headers are usually dynamic. For static file header(s), specify them, inclu
 
 ### FileWriterPlugin
 
-The "FileWriter" plugin makes it easier to create and update files in your app. This plugin's intuitive interface makes file management a breeze. You can automate the process of generating new files on the fly, specifying formats and extensions according to your needs, and update existing files. This plugin supports various file formats, including CSV, EXCEL, JSON, and XML, enabling versatile file handling.
+The "FileWriter" plugin makes it easier to create and update files in your app. This plugin's intuitive interface makes file management a breeze. You can automate the process of generating new files on the fly, specifying formats and extensions according to your needs, and updating existing files. This plugin supports various file formats, including CSV, EXCEL, JSON, and XML, enabling versatile file handling.
 
 You may consider using this plugin to:
 
@@ -265,11 +265,11 @@ The "FileDownload" plugin allows your users to effortlessly download files direc
 * **Server link**: generate direct server links to files, enabling convenient access,
 * **File stream**: obtain files as streams for the apps that require data streaming capabilities.
 
-It is ideal for apps requiring document retrieval and used in apps where users need to download images, audio files, or videos.
+It is ideal for apps in which users need to download images, audio files, or videos.
 
 #### How to Use?
 
-
+Drag the plugin into your API flow and choose the download format. In the Input Configuration, configure the file, file name, and file type, and you're all set.
 
 ### FileUtils
 
@@ -291,4 +291,4 @@ It is ideal for apps requiring document retrieval and used in apps where users n
 
 [^1]: Configure this data source in the **Resources** engine that connects to your target database.
 
-[^2]: Configure the email source in the **Resources** engine. Selecting it allows the app to connect to it.
+[^2]: Configure this EmailSendSource in the **Resources** engine, and then select it here to connect your app to it.
