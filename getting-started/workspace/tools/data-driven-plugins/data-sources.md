@@ -232,11 +232,11 @@ Drop the File Reader plugin into your API flow. Open its configuration and speci
 * **JSONFileReader**: This reader type reads JavaScript Object Notation (JSON) files, a lightweight data interchange format used for data storage and exchange between systems. Use it in APIs that utilize JSON for data exchange.
 * **XMLFileReader**: This reader type helps in handling eXtensible Markup Language (XML) files, a format used to store and transport structured data. Use it in web services that utilize XML for data exchange or configuration.
 
-File headers usually are dynamic. For static file header(s), specify them including their data types, and whether or not they are required. Specify the attribute that holds the file in the Input Configuration tab. Extract to configure the attributes that hold the defined headers and their occurrence (local/global), in the Output Configuration tab.
+File headers are usually dynamic. For static file header(s), specify them, including their data types and whether or not they are required. Specify the attribute that holds the file in the Input Configuration tab. Extract to configure the attributes that hold the defined headers and their occurrence (local or global) in the Output Configuration tab.
 
 ### FileWriterPlugin
 
-The "FileWriter" plugin makes it easier to create and update files in your app. This plugin's intuitive interface makes file management a breeze. You can automate the process of generating new files on the fly, specifying formats and extensions according to your needs; and update existing files. This plugin supports various file formats, including CSV, EXCEL, JSON, and XML, enabling versatile file handling.
+The "FileWriter" plugin makes it easier to create and update files in your app. This plugin's intuitive interface makes file management a breeze. You can automate the process of generating new files on the fly, specifying formats and extensions according to your needs, and update existing files. This plugin supports various file formats, including CSV, EXCEL, JSON, and XML, enabling versatile file handling.
 
 You may consider using this plugin to:
 
@@ -245,17 +245,31 @@ You may consider using this plugin to:
 
 #### How to Use?
 
-Drag the File Writer plugin into your API flow. Choose an output file format and select an option to add the content received from the user's input - select "New file" to generate a new file or "Existing file" to add the user's input to an existing file.&#x20;
+Drag the File Writer plugin into your API flow. Choose an output file format and select an option to add the content received from the user's input—select "New file" to generate a new file or "Existing file" to add the user's input to an existing file.&#x20;
 
 {% hint style="info" %}
-To add dynamic content to an existing EXCEL file, select the "Custom sheet" and provide the sheet name, into which the data has to be appended.
+To add dynamic content to an existing Excel file, select "Custom Sheet" and provide the sheet name into which the data has to be appended.
 {% endhint %}
 
-Next, if you would likely use the default headers, enable the "Use default headers" option, else, specify the file headers in sequence for custom headers. Additionally, you can set font styles for the header and body separately, if the output format is Excel.
+Next, if you would likely use the default headers, enable the "Use default headers" option; otherwise, specify the file headers in sequence for custom headers. Additionally, you can set font styles for the header and body separately if the output format is Excel.
 
 ### FileWriterService
 
+<>
+
 ### FileDownloadPlugin
+
+The "FileDownload" plugin allows your users to effortlessly download files directly from your app. With a simple click, users can download files without complex procedures. The plugin supports various file types including documents, images, videos, and more. Moreover, the plugin provides versatile options for retrieving files, catering to diverse user needs:
+
+* **File download**: facilitate users to download files directly onto their devices.&#x20;
+* **Server link**: generate direct server links to files, enabling convenient access,
+* **File stream**: obtain files as streams for the apps that require data streaming capabilities.
+
+It is ideal for apps requiring document retrieval and used in apps where users need to download images, audio files, or videos.
+
+#### How to Use?
+
+
 
 ### FileUtils
 
