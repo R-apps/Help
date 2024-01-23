@@ -20,8 +20,8 @@ BPMN (Business Process Modeling Notation) elements are the standard notations th
 [basic-tools.md](basic-tools.md)
 {% endcontent-ref %}
 
-{% content-ref url="../data-driven-plugins/data-sources.md" %}
-[data-sources.md](../data-driven-plugins/data-sources.md)
+{% content-ref url="../data-driven-plugins/data-sources/" %}
+[data-sources](../data-driven-plugins/data-sources/)
 {% endcontent-ref %}
 
 {% content-ref url="../data-driven-plugins/data-display/" %}
