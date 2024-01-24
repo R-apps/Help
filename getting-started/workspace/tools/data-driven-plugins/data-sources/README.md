@@ -50,7 +50,7 @@ Here are the data sources that Reasy offers:
 
 [jsonutils.md](jsonutils.md "mention")
 
-[jsonplugin.md](jsonplugin.md "mention")
+[joinplugin.md](joinplugin.md "mention")
 
 [encryptdecrypt.md](encryptdecrypt.md "mention")
 

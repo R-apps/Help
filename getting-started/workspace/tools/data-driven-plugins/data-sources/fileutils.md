@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # FileUtils
 
 The "FileUtils" plugin offers a range of file operations that can help simplify your file management tasks. Whether you need to copy, delete, encrypt, or resize files, the File Utils plugin has you covered. With its easy-to-use interface and powerful functionality, managing your files has never been easier!
@@ -6,55 +20,59 @@ Let's look at each utility.
 
 #### Get Properties
 
-It lets you get a file's important properties from the chosen database. You can choose which properties to get, such as the size, the date it was created, the date it was last changed, and more. If the properties in your selection have to do with dates, you can tell the plugin what format to use to get them.&#x20;
+This retrieves a file's properties from the selected file directory. You can choose which properties to get, such as the size, the date it was created, the date it was last changed, and more. If the properties in your selection have to do with dates, you can tell the plugin what format to use to get them.
 
-It's helpful when you need to get specific information about a file before doing any further operations so that you can handle the data correctly.
+{% hint style="info" %}
+**Tip**: If you choose the file source in the Plugin Configuration, you only need to specify the file name in the Input Configuration; otherwise, give the file's absolute path for the "inputFile" attribute.
+{% endhint %}
+
+It's helpful when you need to get specific information about a file before doing any further operations so that you can handle data correctly.
 
 **Copy File to Directory**
 
-It effortlessly duplicates a file from the chosen database and places it in the desired file directory.
+This service duplicates a specified file from the source file directory and places it in the destination file directory.
 
 It is handy when creating backups, organizing files, or when you need identical copies in different locations.
 
 #### Delete File
 
-This service deletes a file from the specified database immediately.
+This service instantly deletes a file in the specified file directory.
 
-It comes in handy when you need to delete a file but don't have access to the database.
+It comes in handy when you need to delete a file but don't have access to it.
 
-**Move File to Directory**
+#### **Move File to Directory**
 
-It transfers a file seamlessly to a different location.
+This transfers a file seamlessly from a specified file directory to a different file directory.
 
 It is useful when reorganizing files or ensuring files are stored in a more relevant location.
 
-**Rename File**
+#### **Rename File**
 
-This service lets you effortlessly rename a file in the specified database.
+This service lets you effortlessly rename a file in the specified file directory.
 
-It's useful when you need to delete a file without accessing the database.
+It's useful when you need to delete a file without accessing it.
 
 #### Compress Files
 
-It compresses multiple files into a single archive (ZIP, RAR, TAR, or GZ) in the database of your choice. You can even choose to store the compressed file in a different database and share it.
+This compresses multiple files into a single archive (ZIP, RAR, TAR, or GZ). These files can be dynamic These files can be dynamic (for example, documents uploaded by a user when submitting a form) or static. To compress static files, specify the no. of files and their paths. You can even choose to store the compressed file in a different file directory.
 
 This is useful for archiving files or transferring multiple files at once.&#x20;
 
 #### Decompress file
 
-This lets you extract files out of a compressed archive (ZIP, RAR, TAR, or GZ) in the chosen database and put them in a file directory.&#x20;
+This lets you extract files out of a compressed archive (ZIP, RAR, TAR, or GZ) in the chosen file directory and put them in the same or a different file directory.&#x20;
 
 It is necessary when sending or receiving compressed files so you can get to their contents.
 
 #### Encrypt file
 
-This lets you add an extra layer of protection to the contents of a file to ensure data security.
+This lets you add an extra layer of protection to the contents of a file from a specific file source. This encryption is done with the encryption format and the key you choose. You can even choose to have a different name for the encrypted file and place it in a different file directory.
 
-It's ideal when dealing with sensitive information, ensuring data privacy and security.
+It's often used when dealing with sensitive information, ensuring data privacy and security.
 
 #### Decrypt file
 
-This service lets you decrypt files that have previously been encrypted, providing a secure way to retrieve sensitive information.
+This service lets you decrypt files that have previously been encrypted. This decryption is done with the decryption format and the key you choose. You can even choose to have a different name for the decrypted file and place it in a different file directory.
 
 It's ideal when dealing with confidential information.
 
@@ -108,34 +126,34 @@ It is ideal for applications involving Base64-encoded data storage, ensuring eff
 
 #### Replace all the specified content in the file
 
-This utility replaces the specific content within a file.
+This replaces the specific content (only text) within a file.
 
 It is handy when updating information or correcting errors across multiple instances in a file.
 
 #### Create new directory
 
-This utility establishes a new directory within the file system.
+This utility establishes a new directory (folder) within the file system.
 
 It is useful when organizing files and creating a structured hierarchy without accessing the database.
 
 #### Image compress
 
-This utility lets you shrink an image to the chosen height, width, and compression quality while keeping the quality of the image.
+This allows you to shrink an image to a specific height, width, and compression quality while maintaining image quality.
 
 It is useful for optimizing images for web pages, emails, or applications with size constraints.
 
 #### Image resize
 
-This utility helps you resize and scale an image to a specified height and width without compromising its aspect ratio or quality.
+This helps you resize an image to a specified height and width without compromising its quality.
 
 It is helpful when specific image size requirements are necessary for display or storage.
 
 #### Get Files & Folders List
 
-This utility retrieves a list of files and folders within a specified directory.
+This retrieves a list of files and folders within a specified directory.
 
 It is useful for applications that require dynamic file system navigation or cataloging.
 
 ### How to Use?
 
-Drag the plugin into your API flow. Choose the required utility, tell it what request to handle in the Input Configuration, set up the parameters in the Output Configuration to get the status, and then use the results in that API.
+Drag the plugin into your API flow. Choose the file operation and the file source. Specify the necessary input file(s) or give the absolute paths in the Input Configuration, and set up the parameters in the Output Configuration to get the status.

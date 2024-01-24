@@ -50,7 +50,7 @@
         * [PropertyReader](getting-started/workspace/tools/data-driven-plugins/data-sources/propertyreader.md)
         * [DateUtils](getting-started/workspace/tools/data-driven-plugins/data-sources/dateutils.md)
         * [JsonUtils](getting-started/workspace/tools/data-driven-plugins/data-sources/jsonutils.md)
-        * [JsonPlugin](getting-started/workspace/tools/data-driven-plugins/data-sources/jsonplugin.md)
+        * [JoinPlugin](getting-started/workspace/tools/data-driven-plugins/data-sources/joinplugin.md)
         * [EncryptDecrypt](getting-started/workspace/tools/data-driven-plugins/data-sources/encryptdecrypt.md)
         * [StringUtils](getting-started/workspace/tools/data-driven-plugins/data-sources/stringutils.md)
       * [Data Display](getting-started/workspace/tools/data-driven-plugins/data-display/README.md)
