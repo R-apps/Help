@@ -27,6 +27,6 @@ Building your app’s interface in Reasy is a breeze; simply drag and drop the U
 * **BPMN Components**
 
 BPMN (Business Process Modeling Notation) tools employ standard notations that help you create process maps to visualize your business processes. These tools enhance the efficiency and effectiveness of your workflows, making the entire process smoother.\
-For further insight into these elements, [click here](bpmn-components/).
+For further insight into these elements, [click here](bpmn-components.md).
 
 The tools are either integral to Reasy's core library or are added through plugins.

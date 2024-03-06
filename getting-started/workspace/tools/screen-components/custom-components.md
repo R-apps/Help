@@ -366,4 +366,4 @@ The Numeric Pad UI component is like a virtual keypad in your app that lets you 
 
 ideal for financial platforms or any application that requires frequent numeric input.
 
-You can even create a custom screen component. To learn how, [click here](../creating-custom-components.md), and follow the procedure.
+You can even create a custom screen component. To learn how, [click here](../custom-screen-components.md), and follow the procedure.

@@ -12,7 +12,9 @@ layout:
     visible: true
 ---
 
-# Basic Tools
+# BPMN Components
+
+BPMN (Business Process Modeling Notation) elements are the standard notations that help you create process maps to visualize your business processes. Illustrate the logic behind a workflow from start to finish, permitting anyone to understand the sequence of events, information, and activity that flows through a chain of automated tasks. Determine how processes perform under varying scenarios and optimize repetitive and predictable processes.
 
 All the flow objects, connecting objects, swimlanes, and data are available here.&#x20;
 
@@ -31,7 +33,7 @@ E.g., tasks, sub-process, etc.
 ### Gateways
 
 Gateways, in diamond shapes, control how a business process flows by making decisions based on internal or external conditions. These notations help you separate and recombine flows based on certain conditions.\
-E.g., an Exclusive tool that can be transformed into event-based, parallel, inclusive, etc. in its settings.
+E.g., an exclusive tool that can be transformed into event-based, parallel, inclusive, etc. in its settings.
 
 ### Events
 
