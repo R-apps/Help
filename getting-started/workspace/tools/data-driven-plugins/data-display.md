@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Data Display
 
 Reasy provides a set of data display plugins that aim to improve the user experience and facilitate effective communication of system states and outcomes. It provides users with immediate feedback when an operation encounters an error, allowing for quick problem identification and resolution. These messages appear as toaster messages.
@@ -6,7 +20,7 @@ These plugins include the following:
 
 ### Return Error
 
-The Return Error plugin is designed to display error messages. It provides a clear indication to users when an operation encounters an error, enabling quick identification and resolution of issues.&#x20;
+The Return Error plugin is designed to display error messages. It provides a clear indication to users when an operation encounters an error, enabling quick identification and resolution of issues.
 
 #### How to Use?
 
@@ -22,7 +36,7 @@ The Return Success plugin is used to communicate the successful execution of tas
 
 #### How to Use?
 
-Drag the plugin into your flow, open its configuration, and tell it what message to be displayed.
+Drag the plugin into your flow, open its configuration, and tell it what message to display.
 
 #### Use cases
 
@@ -34,7 +48,7 @@ This is widely used to:
 
 ### Return Info
 
-The Return Info plugin facilitates you to display informational messages, guidance, or updates about ongoing processes or system status. This plugin helps you keep your users informed throughout their interactions with your app.
+The Return Info plugin enables you to display informational messages, guidance, or updates about ongoing processes or system status. This plugin helps you keep your users informed throughout their interactions with your app.
 
 #### How to Use?
 

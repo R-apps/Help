@@ -23,7 +23,7 @@ The "SQLPlugin" is your go-to plugin for easy data management. It is your gatewa
 * Select the query type, and then use our simple query builder to build the query you require without having to deal with complicated code.
 
 {% hint style="info" %}
-**Pro Tip**: Before saving your configuration, validate the query for its accuracy.
+**Tip**: Before saving your configuration, validate the query for its accuracy.
 {% endhint %}
 
 It's that simple.
@@ -39,7 +39,7 @@ Here's a glance at SQL keywords for CRUD operations:
 * `INSERT INTO`inserts new data into the database
 
 {% hint style="info" %}
-**Pro Tip**: Utilize the hotkey "Ctrl+Spacebar" to retrieve a list of these SQL keywords, entities, and attributes to build queries quickly and effortlessly.
+**Tip**: Utilize the hotkey "Ctrl+Spacebar" to retrieve a list of these SQL keywords, entities, and attributes to build queries quickly and effortlessly.
 {% endhint %}
 
 Here are the sample queries for CRUD operations:

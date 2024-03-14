@@ -14,8 +14,7 @@ layout:
 
 # UMPlugin
 
-The "UM" plugin comes with a range of services to let you effortlessly manage users, their accounts, and their information within your app. It's perfect for apps requiring user registration and profile creation, such as social platforms, forums, or membership-based sites. \
-This plugin offers the following services:
+The "UM" plugin comes with a range of services to let you effortlessly manage users, their accounts, and their information within your app. These are the different services available to manage data from the app's user repo:
 
 * Create User
 * Get All Users
@@ -42,3 +41,7 @@ This plugin offers the following services:
 ### How to Use?
 
 Drag and drop to include the plugin in your API, select the required service, and configure the necessary parameters in the Input and Output Configuration tabs.
+
+### Use cases
+
+This is commonly used in apps that use the Admin console to manage user accounts, such as creating a user, editing a user's information, and so on.

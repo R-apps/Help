@@ -229,7 +229,7 @@ This input field is for collecting users' PAN (Permanent Account Number) details
 
 </div>
 
-Use it when you must collect users' PAN details.
+Use it to collect users' PAN details.
 
 #### Use cases
 
@@ -254,11 +254,11 @@ An input field to collect your users' 12-digit AADHAAR details. Despite being a 
 
 </div>
 
-Use it when you must collect the user's identity.
+Use it to collect the user's identity.
 
 #### Use cases
 
-Some everyday use cases of Aadhaar include:
+Some everyday use cases include:
 
 * KYC (Know Your Customer) verification in various sectors, including banking, telecom, and financial services
 * Government services for accessing various government services and schemes
@@ -279,7 +279,7 @@ An input field to facilitate your users in the USA entering their SSN (Social Se
 
 </div>
 
-Use it when you must collect the identity proof of users located in the USA.
+Use it to collect the identity proof of users located in the USA.
 
 #### Use cases
 

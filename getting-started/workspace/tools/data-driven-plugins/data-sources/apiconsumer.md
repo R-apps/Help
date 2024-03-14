@@ -19,3 +19,7 @@ The APIConsumer core plugin helps you connect to and use external services or da
 ### How to Use?
 
 Simply drag and access the plugin interface, then enter the API URL you want to use. Provide the format, URL, methods, and content type. You can include service headers like fixed headers, dynamic headers, or response headers. Add request and response templates and save the API settings. Further, you can choose to display and use the response code locally or globally.
+
+### Use cases
+
+A few common use cases include Aadhaar integration, Google Maps, weather API, and more.

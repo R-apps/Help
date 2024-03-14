@@ -14,9 +14,9 @@ layout:
 
 # Session Plugin
 
-The "Session Plugin" allows you to memorize the user's sessions and effortlessly manage and manipulate data within your application until the user logs out. Within the session, you can control your user's access to the app. These parameters can be usernames, passwords, tokens, or other information.&#x20;
+The "Session Plugin" allows you to memorize the user's data stored in the session and effortlessly manage and manipulate other data within your application until the user logs out. These parameters can be passwords, tokens, IDs, and other information.&#x20;
 
-As users interact with your application, the plugin silently stores and manages essential data, ensuring a smooth and personalized user experience.
+As users interact with your application, the plugin stores and manages essential data, ensuring a smooth and personalized user experience.
 
 ### How to Use?
 
@@ -34,14 +34,8 @@ Let's glance at which utility (method) to understand when and where to use.&#x20
 
 **Get UserId:** Use this utility to retrieve the logged-in user's user ID.&#x20;
 
-{% hint style="info" %}
-**Note**: By default, the plugin memorizes the username and role ID parameters. Any additional parameters you want the plugin to remember can be specified using the SET method and retrieved using the GET method.
-{% endhint %}
+When you are dealing with the "Set" methods, specify the data type, value type, and value in the Input Configuration tab. When you are dealing with the "Get" method, specify the data type in the Output Configuration tab.&#x20;
 
 {% hint style="info" %}
-**Pro Tip:**
-
-\-When you are dealing with the "Set" methods, specify the data type, value type, and value in the Input Configuration tab.
-
-\-When you are dealing with the "Get" method, specify the data type and its scope of use (local or global) in the Output Configuration tab. Usually, this parameter information can be used within the API.
+**Note**: By default, the plugin memorizes the user's data stored in the session. Any additional parameters you want the plugin to remember can be specified using the SET method and retrieved using the GET method.
 {% endhint %}
