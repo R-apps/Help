@@ -171,4 +171,25 @@ A kind of line chart with data points connected to a smooth curve is widely used
 
 </details>
 
+<details>
+
+<summary>Solid Guage Chart</summary>
+
+A Highchart visual component, that renders one or more values on a radial scale. It is highly customizable, supporting tooltips, gradients, and more. It is often used in dashboards to track progress or performance metrics.&#x20;
+
+It offers complete control over:
+
+* Color zones (e.g., Green for good, Red for alert)
+
+- Tooltip and animation settings
+- Binding values dynamically
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/Solid Guage.png" alt="An image of Solid Guage, a high chart component" width="301"><figcaption></figcaption></figure></div>
+
+As this chart component is excellent for KPIs, dashboards, and real-time data, it is ideal for data-rich use cases.
+
+**Example:** Real-time server load (e.g., 64% CPU usage), credit utilization, SLA compliance tracker, and more.
+
+</details>
+
 However, the choice of chart depends on the specific data and the message you want to convey. These examples should help you understand when and where to use each chart effectively.

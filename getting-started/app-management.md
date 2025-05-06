@@ -45,11 +45,7 @@ The platform restores the app and adds it to your dashboard. You can then custom
 
 Hover over![](<../.gitbook/assets/App Info.png>), the app tile to reveal the app’s basic information which includes the date, creator's name, context path, version, and other relevant details.
 
-<div align="left" data-full-width="false">
-
-<figure><img src="../.gitbook/assets/App Info - Dashboard.png" alt="" width="257"><figcaption></figcaption></figure>
-
-</div>
+<div align="left" data-full-width="false"><figure><img src="../.gitbook/assets/App Info - Dashboard.png" alt="" width="257"><figcaption></figcaption></figure></div>
 
 ### **Pin your App**
 
@@ -69,11 +65,7 @@ You can set your app preferences before going live. Click![](<../.gitbook/assets
 * Set a Session expiration session time, which is the amount of time a user can be inactive before the session ends.
 * Select a log level to manage your app's logging behavior.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/App settings.png" alt="" width="401"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/App settings.png" alt="" width="401"><figcaption></figcaption></figure></div>
 
 ### **Compare App Versions**
 
@@ -88,7 +80,7 @@ A comparison is displayed, showing the number of different resources.
 
 ### **Deploy your App**
 
-This feature helps you roll out an app from one environment to another**.** When you deploy an app, you're installing it in a target environment, whether it is for testing, production, or another environment; with all the necessary dependencies and configurations. It's how you make your app available to others.
+This feature helps you roll out an app from one environment to anothe&#x72;**.** When you deploy an app, you're installing it in a target environment, whether it is for testing, production, or another environment; with all the necessary dependencies and configurations. It's how you make your app available to others.
 
 Moreover, deployment lets you test out new features without messing up your live app version. So, you can keep the app running smoothly while experimenting with new things on the side.   &#x20;
 

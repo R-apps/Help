@@ -38,11 +38,7 @@ Some common use cases of Textboxes include:
 
 The Text area is a multi-line input field for longer texts. You can, however, customize the character limit in its properties, to let users express themselves effortlessly. It comes with a label to name the field and, if required, make it mandatory.
 
-<div align="left" data-full-width="false">
-
-<figure><img src="../../../../.gitbook/assets/image (24).png" alt="Text Area" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left" data-full-width="false"><figure><img src="../../../../.gitbook/assets/image (24).png" alt="Text Area" width="563"><figcaption></figcaption></figure></div>
 
 Use it in your forms when you need to collect extensive information, such as feedback.
 
@@ -59,11 +55,7 @@ A dropdown, also known as a dropdown menu, presents a list of options when click
 
 As dropdowns become difficult when offering an overwhelming number of options, they are not recommended when you have too many or too few options.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Drop-down.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Drop-down.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Use it when your users must select single, multiple, or all options from a predefined list of options.
 
@@ -79,11 +71,7 @@ Some common use cases include:
 
 A simple date picker that allows users to select a past, present, and future date. It includes properties to customize the date format and restrict past and future dates. Also, you can add time, including meridian (AM/PM). It comes with a label to name the field and, if required, make it mandatory.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Calendar.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Calendar.png" alt=""><figcaption></figcaption></figure></div>
 
 Use this tool when your users must select a specific date.
 
@@ -99,11 +87,7 @@ Use cases for the calendar include:
 
 This extension of a standard Calendar allows users to select a range of dates rather than just a single date. It includes two date pickers (calendars), one for the start ("from") date and another for the end ("to") date. It comes with a label to name the field and, if required, make it mandatory.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Calendar Range.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Calendar Range.png" alt=""><figcaption></figcaption></figure></div>
 
 Use this form element when your users must select a range of dates.
 
@@ -121,11 +105,7 @@ Some common use cases include:
 
 The range slider helps users select a range of values within a defined range by moving a slider along a track. Include a label that describes what the slider changes. It comes with a property to set the range and the increment value.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Range Slider.png" alt="" width="423"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Range Slider.png" alt="" width="423"><figcaption></figcaption></figure></div>
 
 Use it when your users must select a range within a predetermined range of values.
 
@@ -140,11 +120,7 @@ Some common use cases include:
 
 The List Slider component combines the functionality of a list and a slider, allowing users to scroll through a collection of items horizontally. It helps users navigate easily through a set of content items or options.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/List Slider.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/List Slider.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -157,11 +133,7 @@ The Chechbox is a selection control that lets users select options, toggle setti
 1. One is to select or deselect one or more from a set (recommended for a limited number of choices).
 2. The other way is a stand-alone checkbox, usually placed at the end of a form for users to agree to specific terms and conditions.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Checkbox.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Checkbox.png" alt=""><figcaption></figcaption></figure></div>
 
 Checkboxes are often employed in forms to capture user preferences or gather information. Use checkboxes to allow users to select one or more options from a list or to turn an item on or off in a desktop environment.&#x20;
 
@@ -181,11 +153,7 @@ A Radio button is a selection control for choosing one option from a set of two 
 
 Its properties let you decide to provide a default selection in cases where the user skips the selection, but it is essential. Also, you can choose to display options vertically or horizontally.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Radio button.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Radio button.png" alt=""><figcaption></figcaption></figure></div>
 
 They are ideal when you want to present all options upfront and when you want users to select only one option at a time.
 
@@ -204,11 +172,7 @@ A few use cases include:
 
 The password field is designed for securely capturing sensitive information like passwords or PIN codes. It includes a hide/show icon for masking or revealing passwords. By default, it is masked. Its properties allow you to define a pattern for the password.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Password.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Password.png" alt=""><figcaption></figcaption></figure></div>
 
 Use it to securely capture sensitive information like passwords or PIN codes.
 
@@ -223,11 +187,7 @@ Some everyday use cases include:
 
 This input field is for collecting users' PAN (Permanent Account Number) details. Despite being a simple textbox, Reasy simplifies this process by offering a dedicated PAN card component, ensuring accurate display and format.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/PAN card.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/PAN card.png" alt=""><figcaption></figcaption></figure></div>
 
 Use it to collect users' PAN details.
 
@@ -248,11 +208,7 @@ Some everyday use cases include:
 
 An input field to collect your users' 12-digit AADHAAR details. Despite being a simple textbox, Reasy provides a direct **Aadhaar Number** component to help you save time changing the label and the placeholder.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Aadhaar number.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Aadhaar number.png" alt=""><figcaption></figcaption></figure></div>
 
 Use it to collect the user's identity.
 
@@ -273,11 +229,7 @@ Some everyday use cases include:
 
 An input field to facilitate your users in the USA entering their SSN (Social Security Number) details. Even though you can collect this information with a simple textbox, the SSN component simplifies the process by helping your users enter their unique identity securely in a specific format, enabling you to record their information.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/SSN.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/SSN.png" alt=""><figcaption></figcaption></figure></div>
 
 Use it to collect the identity proof of users located in the USA.
 
@@ -295,11 +247,7 @@ Some use cases of SSN fields include:
 
 The HTML Editor component makes it easy for your users to learn and try things out on their own. It provides an intuitive interface that simplifies the learning experience. The editor allows users to experiment with code. As they input the code, it shows a preview of how it will look.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/HTML Editor.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/HTML Editor.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -307,41 +255,56 @@ Including this component in your HTML learning app is a fantastic idea. This res
 
 ### QR Code Generator
 
-Easily create QR codes using the QR Code Generator component. QR codes are square patterns that you can scan to get information. They're really handy for quickly sharing data. You can use this tool to quickly generate QR codes, which makes it easy to share and store information.
+The QR Code Generator component helps in creating dynamic QR codes instantly. QR codes are square patterns that embeds the information you want to show up on scanning it. They are really handy for sharing data quickly. Use this to simplify repetitive input tasks with multi-device experiences.
 
-<div align="left">
+It is simple to use. Drag the plugin on to your canvas and enter the data to be encoded in its properties. The plugin instantly generates a QR code.
 
-<figure><img src="../../../../.gitbook/assets/QR code generator.png" alt="" width="149"><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../../.gitbook/assets/QR code generator.png" alt="" width="149"><figcaption></figcaption></figure></div>
 
-</div>
+#### Usecases
 
-#### Use cases
+It is widely used in event passes, kiosk apps, product labeling, payment transactions, digital menus in restaurants, marketing collaterals, educational resources, and more.
 
-It is widely used in event invitations, product labelings, business cards, payment transactions, digital menus in restaurants, marketing collaterals, educational resources, and more.
+#### Best Practices
+
+Keep your content precise for better QR readability.
+
+### QR Code Scanner
+
+The QR Code Scanner uses your users' device camera to scan a QR code and instantly pull the data stored in it.
 
 ### Barcode Generator
 
 The Barcode Generator component makes it easier to generate barcodes, within the app. This component meets the industry standards and works with the scanners or systems you want to use. You can select the barcode type and content to display.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Barcode Generator.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Barcode Generator.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
 It is often used in inventory management, asset tracking, retail and sales, membership and loyalty programs, healthcare, and more.
 
+### Captcha / Image Puzzle Slider Captcha
+
+Captcha and Image puzzle slider captcha, both components are used to ensure that interactions are performed by human users rather than automated bots.&#x20;
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/captcha (1).png" alt=""><figcaption><p>Traditional Captcha</p></figcaption></figure> <figure><img src="../../../../.gitbook/assets/Image Puzzle Slider Captcha.png" alt="" width="172"><figcaption><p>Image Puzzle Slider Captcha</p></figcaption></figure></div>
+
+#### When to use?
+
+While both methods are effective,&#x20;
+
+* Use traditional **Captcha** when strong security is a priority and a minor interruption to the user experience is acceptable.
+* Use **Image Puzzle Slider captcha** when you want to balance security with a more user-friendly and interactive experience, especially on mobile devices.
+
+#### Use cases
+
+Captchas are used in web applications involving secure transactions, login pages, mobile applications, and more.
+
 ### Expiry Date
 
 The Expiry Date component allows you to effortlessly incorporate an expiration date feature in your application. Simply drag and drop the Expiry Date component into your application form or interface. Configure it by setting the desired expiry date and customizing the display format.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Expiry Date.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Expiry Date.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 

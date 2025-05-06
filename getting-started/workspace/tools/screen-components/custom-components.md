@@ -30,11 +30,7 @@ This component is best used for remote interviews, virtual workshops, or user id
 
 The Doc Viewer lets you easily view different document formats in the app. You do not need external tools to preview documents. You can do more than just viewing. You can search, highlight content, and switch to presentation mode for a better view. You can enable rotation and annotations to offer your users a more convenient way.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Doc Viewer.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Doc Viewer.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -44,11 +40,7 @@ It is ideal for reading PDFs, Word docs, and more directly within the app. Usefu
 
 The Search component empowers users to quickly locate specific information within the app. As this is a voice-enabled search, users can search either by text or by voice. It streamlines content discovery for enhanced user experience.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Search.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Search.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -58,11 +50,7 @@ Essential for applications with large datasets or content-rich platforms where u
 
 The Progress Bar shows you how much of a task is done with a bar that fills up as you make progress. It shows users their status and motivates them to finish. Use this component when the process can be described with quantitative information, such as a percentage.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Progress bar.png" alt="" width="560"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Progress bar.png" alt="" width="560"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -72,11 +60,7 @@ It is also frequently used to demonstrate the progress of file uploads, course c
 
 The Progress Circle component represents progress in a circular format. It offers an alternative visual style to showcase completion. Use this for goal trackers to elegantly display achievement levels.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Progress circle (1).png" alt="" width="193"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Progress circle (1).png" alt="" width="193"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -86,11 +70,7 @@ Its use cases include tracking projects, fitness goals, mobile data usage, prelo
 
 Guide users through multi-step processes with the Progress Wizard component. Break down complex tasks into manageable steps for a structured user journey. It helps users see exactly where they are and what’s next.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Progress Wizard.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Progress Wizard.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -100,11 +80,7 @@ Perfect for complex form submissions, onboarding sequences, and multi-step workf
 
 Integrate interactive maps seamlessly using the Maps component. Display locations, routes, or geographical data, providing users with an engaging and informative experience.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Maps.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Maps.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -114,11 +90,7 @@ Ideal for location-based services, delivery tracking, or event planning, and for
 
 The OTP Generator helps ensure secure user transactions. You can customize the type, length, and countdown time for Resend OTP.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/OTP Generator.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/OTP Generator.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -138,11 +110,7 @@ This component is great for apps with video tutorials, entertainment content, ed
 
 Allow users to give feedback using the Star Rating feature. Users can rate content or services easily with a simple visual rating system. You can show the average rating along with the user rating and star count.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Star Rating.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Star Rating.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Use Cases**
 
@@ -152,11 +120,7 @@ This is often used in reviews, product feedback, or any scenario where user rati
 
 Adding Captcha will improve security. It checks if you are a real person and keeps your app safe from spam or bots. You can choose to use a captcha in text or numeric formats and decide where your users should go after they pass the verification.&#x20;
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/captcha.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/captcha.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -166,11 +130,7 @@ It is often used for sign-ups or form submissions to maintain the site’s integ
 
 The Kendo Tree component can effectively organize and display hierarchical data. It offers a simple way to represent data with parent-child relationships in a tree-like structure for easy navigation.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Kendo Tree.png" alt="" width="254"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Kendo Tree.png" alt="" width="254"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -192,11 +152,7 @@ These components help users authenticate through social platforms. This lets the
 
 Use the Timer component to count down or track time. Display time duration or intervals for users engaging in time-sensitive activities. You can choose the type of timer, set the countdown time, and customize its appearance.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Timer (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Timer (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -206,11 +162,7 @@ This component is great for applications featuring countdowns, reminders, limite
 
 Keep users informed on the weather with the Weather Widget component. It provides real-time weather forecasts, or climatic details, either for the current day or for the next 5 days.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Weather widget.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Weather widget.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -220,11 +172,7 @@ It is often used in travel apps or event planning platforms. Ideal for applicati
 
 The Mobile Number field is essential for communication-based services or verification processes.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Mobile number.png" alt="" width="394"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Mobile number.png" alt="" width="394"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -234,11 +182,7 @@ It is useful in applications requiring user contact details, mobile number verif
 
 The Text Editor component empowers users to input and format text seamlessly within the app. It is a rich text editor with a range of editing functionalities such as bold, italic, underline, bullet points, and numbered lists. It offers a user-friendly interface that facilitates text manipulation, formatting, and customization, resembling familiar word processing software.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Text Editor.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Text Editor.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 **Use Cases**
 
@@ -258,25 +202,17 @@ It's commonly used in e-commerce checkouts, ordering systems, and other processe
 
 The Score Meter is an excellent tool for showing numerical scores or ratings in a user-friendly format. It makes gamified experiences better by giving users an easy way to see and understand scores, making data interpretation simple. You can customize it to match different score ranges or styles.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Score meter.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Score meter.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
-It is excellent for gaming platforms, educational apps, fitness apps, financial applications to represent credit scores, and more.
+It is excellent for gaming platforms, educational apps, fitness apps, and more.
 
 ### Paragraph
 
 The Paragraph component is a versatile tool for displaying text in different sections of the app's interface. It helps organize and present text in a structured way.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Paragraph.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Paragraph.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -286,11 +222,7 @@ It is commonly used to show information. You can use it to display error message
 
 The Step Wizard component is great for breaking down complex tasks into easy-to-follow steps. It helps users easily navigate through the task, allowing them to move back and forth. You can alter its orientation, position, and number of steps, as needed.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Step wizard.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Step wizard.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -300,11 +232,7 @@ It is commonly used in installations, onboarding, form submissions, banking apps
 
 The Tabs component lets you easily organize and segment your content with multiple tab options. Tabs represent different sections, making it easy for users to switch between content sets. It has clear visual indicators for active tabs, making navigation easy. You can customize it as needed.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Tabs.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Tabs.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -314,11 +242,7 @@ Tabs are commonly used in apps for multi-step processes. You could try using thi
 
 The Table component helps you organize and display data systematically in rows and columns, enhancing data visualization and analysis. It allows customization of columns, rows, and cell formatting to suit specific data representation needs.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Table.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Table.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -328,11 +252,7 @@ This is essential for handling large volumes of data like inventory management s
 
 Use the Info component to quickly share important information in your app. It is ideal for alert messages or helpful hints that will not distract users. You can choose to replace an icon and change its style and position.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Info.png" alt="" width="425"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Info.png" alt="" width="425"><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -342,11 +262,7 @@ It is commonly used in forms to explain fields, contextual information, instruct
 
 The Section Divider is a versatile UI component designed to organize and categorize content within your application. It creates a visual break, making it easier for users to distinguish between different sections of information.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Section Divider.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Section Divider.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
@@ -356,14 +272,10 @@ It is often used in Single-page applications (SPAs), analytical dashboards, e-co
 
 The Numeric Pad UI component is like a virtual keypad in your app that lets you quickly enter numbers. It's just like typing them on a keyboard. It makes entering numbers a breeze.
 
-<div align="left">
-
-<figure><img src="../../../../.gitbook/assets/Numeric pad.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Numeric pad.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Use cases
 
-ideal for financial platforms or any application that requires frequent numeric input.
+Ideal for financial platforms or any application that requires frequent numeric input.
 
 You can even create a custom screen component. To learn how, [click here](../custom-screen-components.md), and follow the procedure.

@@ -98,7 +98,7 @@ It's helpful when dealing with text-based files or when you need to manipulate f
 
 This converts the file contents to a Base64-encoded string.
 
-It helps you embed the file content into any text document_,_ such as HTML, JSON, or XML. This is often used in applications involving data transmission, secure data storage, or content sharing.&#x20;
+It helps you embed the file content into any text documen&#x74;_,_ such as HTML, JSON, or XML. This is often used in applications involving data transmission, secure data storage, or content sharing.&#x20;
 
 #### Image to Base64
 
