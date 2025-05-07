@@ -192,4 +192,25 @@ As this chart component is excellent for KPIs, dashboards, and real-time data, i
 
 </details>
 
+<details>
+
+<summary>Heatmap</summary>
+
+This Heatmap is a geographic data visualization that colors regions (like states or countries) based on values such as categories or counts. It is useful for representing location-based data in a highly visual way. This interactive component can be customized with titles, labels, and legends.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/Heatmap.png" alt=""><figcaption></figcaption></figure></div>
+
+**Examples:** Some real-word examples include healthcare access like vaccination status, weather forecast, sales analysis, tax compliance status, and more.
+
+{% hint style="info" %}
+**A few tips for effective use:**
+
+* Keep the color categories simple; avoid more than 4–5.
+* Always turn on the **legend** for clarity.
+* Use **aggregate mode** if you want to show summed data per region (e.g., number of reports).
+* Match color intensity or type to the data — e.g., green for safe, red for risky.
+{% endhint %}
+
+</details>
+
 However, the choice of chart depends on the specific data and the message you want to convey. These examples should help you understand when and where to use each chart effectively.
