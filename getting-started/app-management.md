@@ -55,17 +55,43 @@ To have an app within easy reach, click![](../.gitbook/assets/Pin.png) on its ap
 
 ### **Set your App Preferences**
 
-You can set your app preferences before going live. Click![](<../.gitbook/assets/App settings Icon.png>) on the app tile to set app preferences. You can: &#x20;
+Set your app preferences before going live. To set, click![](<../.gitbook/assets/App settings Icon.png>) on the app tile, you will see the following settings:&#x20;
 
-* Change your app name
-* Enhance error messages with a validation icon. While Reasy offers a default validation icon (<img src="../.gitbook/assets/Validation Icon.png" alt="" data-size="line">), you can still add your own. Click '+' to add an icon of your choice.
-* Select a preloader[^1] from the provided options or click '+' to add one.
-* Specify the date format and currency type to be used in your app.
-* Set a [cache threshold limit](#user-content-fn-2)[^2] and Cache default record count.
-* Set a Session expiration session time, which is the amount of time a user can be inactive before the session ends.
-* Select a log level to manage your app's logging behavior.
+#### General:
 
-<div align="left"><figure><img src="../.gitbook/assets/App settings.png" alt="" width="401"><figcaption></figcaption></figure></div>
+* **App Name**: Use this setting to change your app name.
+* **URL:** Use this option to copy your app URL.&#x20;
+* **Validation Icon**: While Reasy offers a default validation icon (<img src="../.gitbook/assets/Validation Icon.png" alt="" data-size="line">), you can still add your own. \
+  Click '+' to add an icon of your choice.
+* **Preloader:** Select a preloader[^1] from the provided options or click '+' to add one (GIF).
+
+![](<../.gitbook/assets/App Settings - General (1).png>)
+
+#### Configuration:
+
+* **Display Date Format:** Specify the date format here
+* **Currency:** Select the currency type to be used in your app. To display values as monetary figures,  enable **Currency Symbol**.
+* To show toaster (pop-up) notifications with text messages after user actions like form submission, updates, or errors, enable **Toaster Message Text**.
+
+![](<../.gitbook/assets/App settings - Configuration.png>)
+
+#### Data Limit:
+
+Set a Session expiration session time, which is the amount of time a user can be inactive before the session ends.
+
+![](<../.gitbook/assets/App Settings - Data limit.png>)
+
+#### Log Details:
+
+* **Log Level**: Select a log level (session-specific logging) to manage your app's logging behavior (Info/Error/Debug). Select "Off" to disable logs generation.
+  * **Info** _(default)_ – Logs general events, warnings, and errors.
+  * **Error** – Only logs errors and exceptions.
+  * **Debug** – Logs everything, including detailed internal data (for troubleshooting).
+* **Users Log Enabled**: Use this field to specify which users’ actions should be logged. \
+  Only actions performed by the specified user(s) will be included in user-specific logs.\
+  Example: Monitor actions of admins, testers, or specific roles for auditing or debugging.
+
+![](<../.gitbook/assets/App Settings - Log details.png>)
 
 ### **Compare App Versions**
 
@@ -164,19 +190,21 @@ After you finish PWA settings, click **Save**.&#x20;
 
 ### **Share your App**
 
-This feature allows users within a tenant to share apps among themselves. By sharing, you grant them access to your app. This approach lets you collaborate effectively, share resources, leverage each other's expertise, break down the complexity, and contribute to the development process in a simplified manner. It significantly reduces the effort and promotes efficiency and productivity within the tenant, fostering a collaborative environment for app development.
+This feature lets you share your app with others in your domain. It’s great for collaborating, dividing tasks, and building apps more efficiently as a team. By sharing, you and your team can collectively build the app, reducing complexity.
 
-Only the App owners can share an app with users in the tenant to which they belong. The recipients of the shared app will have limited options. They won't be able to share it, deploy it to another environment, or delete it. These limitations ensure the application's security and integrity.
+To share an app, click![](<../.gitbook/assets/More actions (6).png>) on the app tile, and go to **More Options** > **Share**. Select the user(s) and then grant them with the necessary permissions to control their access to your app. Grant the recipients with any of the following permission type:
 
-To share an app, click![](<../.gitbook/assets/More actions (6).png>) on the app tile, and go to **More Options**> **Share**. Then, select the user(s) and share it.&#x20;
+* **Full-access:** Grants the same permissions you have.
+* **Read-only:** Lets recipients view the app restricting editing access.
+* **Custom:** Allows engine level control, which enables you to control recipients' access to each engine. To restrict access to engine(s), set their permission to "None".
 
-{% hint style="info" %}
-Should you wish to restrict users from modifying certain work items within your app, you can lock them, granting users only a "View" capability. This ensures that they can access the content but are unable to make any modifications.&#x20;
-{% endhint %}
+These permissions help you ensure application's security and integrity.
 
-**Store your App**
+<div align="left"><figure><img src="../.gitbook/assets/Share App - with permissions (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Regardless of whether you are developing apps to address pain points for clients or customers, or pursuing your own unique app ideas, this feature lets you store and reuse them in the future. By preserving your apps, you can leverage your previous app development efforts and easily retrieve and modify them as needed, ensuring that your work remains organized and accessible.&#x20;
+### **Store your App**
+
+Regardless of whether you are developing apps to address pain points for clients or customers, or pursuing your own unique app ideas, this feature lets you store and reuse them in the future. This lets you preserve your apps, leveraging your previous app development efforts, retrieve, and modify them as needed, ensuring that your work remains organized and accessible.&#x20;
 
 To add an app to the store, click![](<../.gitbook/assets/More actions (6).png>) on the app tile, and go to **More options** > **Add to store**. Then,
 
@@ -207,6 +235,4 @@ It's a good practice to test your app before you deploy it or share it with othe
 
 To test it and see how it works, click![](<../.gitbook/assets/More actions (6).png>) on the app tile, and go to **More Options**>**Test solution**. Make sure your app is active before testing it.
 
-[^1]: It's a loading indicator that shows your users that your app's content is loading or processing.
-
-[^2]: This limit specifies the maximum number of entries that the cache can store. This keeps the cache from expanding endlessly.
+[^1]: A loading indicator that shows your users that the app's content is loading or processing.
