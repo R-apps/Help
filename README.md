@@ -10,6 +10,8 @@ Reasy is a modernized low-code/no-code platform equipped with intellectual featu
 
 With Reasy, you can rapidly develop enterprise applications that meet your business requirements and easily modify them as your business scenarios evolve.
 
+Hi, this is a sample message.
+
 ## Key Features
 
 **Version Control:** The REASY Platform allows you to maintain multiple versions of an app, allowing rolling back and forth of versions as per the business requirements. With version control, different versions of an app can be tested concurrently in a sandbox, allowing change requests to be managed without impacting the live application.
