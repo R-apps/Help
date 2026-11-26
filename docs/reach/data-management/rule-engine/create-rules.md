@@ -1,0 +1,167 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: false
+---
+
+# Create Rules
+
+### Steps to create a rule
+
+Before creating a rule, ensure you have the required user permissions to access the **Rule Engine** module.
+
+{% stepper %}
+{% step %}
+#### Creating a Rule
+
+* Go to **Rule Engine** > **Create Rules**.
+*   On the **Create Rule** page:
+
+    * Enter a unique name for the rule.
+    * Select the category.
+    * Enter a brief summary of the rule's purpose.
+    * Add a milestone if required.
+    * Select the database and tables from where the customer data is available
+
+    Leave the **Rule ID** blank for the system to generate one automatically.
+
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+{% endstep %}
+
+{% step %}
+#### **Query-based Customer Data Retrieval**
+
+Retrieve the customer data either by writing raw SQL queries or by generating queries using predefined conditions. This helps you quickly retrieve relevant information, reduce manual effort, and improve data accuracy.
+
+In the **Data Retrieval** section:
+
+* Select the data source.
+*   Define conditions by selecting:
+
+    * a column, (e.g., 'Policy\_status'),
+    * an operator, (e.g., 'Equal To'), and
+    * a value, (e.g., 'Active').
+
+    Use **Add New Condition** or **Add New Group** to add more criteria with AND/OR logic.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure></div>
+
+* Scroll down to the **SQL Query** section to write a custom query, or select **Generate SQL from Conditions** to automatically convert your visual conditions into raw SQL code.
+
+{% hint style="info" %}
+Select **Format SQL** or press <kbd>Ctrl+Shift+F</kbd> / <kbd>Cmd+Shift+F</kbd> on Mac to check the query structure and ensure the syntax is correct and easy to read.
+{% endhint %}
+
+* After writing query, use **Test Query** to validate it. After validating the SQL query, UniServe Reach retrieves and displays the matching records for verification.
+
+<div align="left" data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+{% endstep %}
+
+{% step %}
+###
+
+
+{% endstep %}
+
+{% step %}
+### Configure Communication Channels
+
+Once your audience is defined, choose which communication channels — SMS, Email, or WhatsApp — the system should use to deliver the message.
+
+To configure the channels:
+
+* Expand the **Template Mapping** section.
+* For each required channel, such as SMS, EMAIL, or WHATSAPP, select **Template** (<img src="../../../.gitbook/assets/image (220).png" alt="" data-size="original">) to select your pre-configured template.
+
+The system populates the relevant metadata, such as Reach Template ID, DLT Template ID, or Template Name.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure></div>
+{% endstep %}
+
+{% step %}
+### Map Template Variables
+
+To ensure each customer receives personalized information, such as their name, account number, account ID, or other dynamic data, map the template variables to the correct data fields.
+
+As you select the template, the system fetches the related tables and columns that store dynamic customer data.
+
+To map customer-specific details:
+
+* Go to the required channel and expand the **Template Variable Mapping** grid.
+* Select the required column from each table.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure></div>
+
+The system replaces the dynamic variables in the template with the mapped data when it triggers communications.
+{% endstep %}
+
+{% step %}
+#### Define Channel Priority
+
+Determine the precise order in which your selected communication channels should be triggered. To define,
+
+* Expand the **Channel Priority** section.
+* Use the drop-down menus to assign numerical rankings to set the triggering sequence, where 1 represents the highest priority (e.g., setting _SMS_ to 1 and _WHATSAPP_ to 2).
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure></div>
+
+The system sends communication through the highest-priority channel first and moves to the next one if needed.
+{% endstep %}
+
+{% step %}
+### Configure Fallback Management
+
+Fallback management ensures your message is safely delivered via an alternative channel if the primary channel encounters a delay or delivery failure.
+
+* Expand the **Fallback Configuration** section.
+* For your highest-priority (primary) channel, enter the maximum duration (in hours) the system should wait before skipping to the next channel.
+
+<figure><img src="../../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+Review all sections on the page and then select **Create** to publish your rule. All the published rules are listed in the [View Rules](view-rules.md) page.
+
+After creating, learn how to [execute rules](execute-rules.md).&#x20;
+
+```jsonl
+{
+   "to": "9876543210",
+   "msg_category": "TR",
+   "message": "Reminder: John, Your ULIP policy 12345 is due on 2027-11-30. 
+   Pay Rs 30000 to keep your life cover active and your investments growing. 
+   Pay now: https://<customer_URL> T&C Apply. ABCD Ltd. (Formerly ABC)",
+   "short_link": "Y",  
+   "custom_dlr_data": "IND12345",
+   "channel": "SMS",
+   "custom_params":{
+        "source_application":"ABCD",
+		"service_request":"SR12345",
+		"policy_number":"123456789",
+		"application_number":"ABCD12345",
+		"client_id":"57645675",
+		"advisor_code":"84576456",
+		"csc_code":"8567689578956",
+		"sap_code":"867568978956",
+		"name":"John",
+		"department":"Testing"
+ } 
+}
+```

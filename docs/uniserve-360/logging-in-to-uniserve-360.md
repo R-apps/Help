@@ -1,0 +1,43 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: false
+---
+
+# Logging in to UniServe 360
+
+New to UniServe 360? Get started by creating an account.
+
+Register to create an account. Before creating your account, make sure you have a valid email ID.&#x20;
+
+To register,&#x20;
+
+* Access the URL - [http://172.16.0.55:8888/uniserveapp](http://172.16.0.55:8888/uniserveapp) and select **Create an account**
+* Enter your email and password to register.&#x20;
+
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Create Account (Login Page).png" alt=""><figcaption></figcaption></figure></div>
+
+Now, select **Login** and log in to UniServe 360 designer with the created account credentials.
+
+<div align="left" data-with-frame="true"><figure><img src="../.gitbook/assets/Login Page (Web Designer).png" alt=""><figcaption></figcaption></figure></div>
+
+After a successful login, the platform lands you on the "My Templates" page, where you can find all the templates you created or shared with you by your peers.&#x20;
+
+In the case the Administrator creates a user account, the credentials will be shared with the user.

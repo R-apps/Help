@@ -1,0 +1,38 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: false
+---
+
+# View Rules
+
+View and manage rules created to date.
+
+To view, go to **Data Management** > **Rule Engine** > **View Rules**.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure></div>
+
+To view a rule, select **View** (![View icon](<../../../.gitbook/assets/image (230).png>)).
+
+To edit a rule, select **Edit** (![Edit icon](<../../../.gitbook/assets/image (231).png>)).
+
+To disable a rule, select **Disable** (<img src="../../../.gitbook/assets/image (234).png" alt="Disable icon" data-size="original">). Disabling a rule deactivates it but does not delete it.
+
+To delete a rule, select **Delete** (<img src="../../../.gitbook/assets/image (233).png" alt="Delete icon" data-size="original">).
