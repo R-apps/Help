@@ -45,6 +45,11 @@ The platform creates the user and is listed in the users list. The user account 
 
 Use the controls in the "Actions" column of the Users table to maintain user accounts.
 
-* Select the **Active / Deactivate** (<img src="../../../.gitbook/assets/Activate-Deactivate icon (1).png" alt="" data-size="original">) option to toggle a user's status.&#x20;
-* Select **Edit** (<img src="../../../.gitbook/assets/Edit User - icon (1).png" alt="" data-size="original">) option to modify a user's name, role, or department.
-* Select **Delete** (<img src="../../../.gitbook/assets/Delete user.png" alt="" data-size="original">) to permanently remove a user account from the tenant.
+* Select the **Active/Deactivate** (<img src="../../../.gitbook/assets/Activate-Deactivate icon (1).png" alt="" data-size="original">) option to toggle a user's status.&#x20;
+* Select the **Edit** (<img src="../../../.gitbook/assets/Edit User - icon (1).png" alt="" data-size="original">) option to modify a user's name, role, or department.
+* Select the **Delete** (<img src="../../../.gitbook/assets/Delete user.png" alt="" data-size="original">) to permanently remove a user account from the tenant.
+
+**Observations**:
+
+* Action icons are differently colored from other web pages of TrustWiser.&#x20;
+* There is no option to import users in bulk.
